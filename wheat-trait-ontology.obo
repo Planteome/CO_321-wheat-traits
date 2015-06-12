@@ -31,7 +31,7 @@ relationship: part_of CO_321:0000000 ! Wheat trait ontology
 [Term]
 id: CO_321:0000004
 name: Stress trait
-def: "Response by the plant in terms of resistivity or sensitivity to abiotic or/and biotic stresses." [Gramene Plant Trait Ontology:TO\:0000164]
+def: "Response by the plant in terms of resistivity or sensitivity to abiotic or/and biotic stresses." [Plant Trait Ontology:TO\:0000164]
 relationship: part_of CO_321:0000000 ! Wheat trait ontology
 
 [Term]
@@ -52,17 +52,17 @@ name: Canopy temperature depression
 def: "The difference between air and canopy temperature which is used as a screening tool for wheat yield and stress tolerance in large breeding populations." [http://crops.confex.com/crops/2005am/techprogram/P8099.HTM]
 comment: Canopy temperature depression is highly suitable for selecting physiologically superior lines in warm, low relative humidity environments where high evaporative demand leads to leaf cooling of up to 10C below ambient temperatures.
 synonym: "CTD" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000157
+xref: Plant Trait Ontology:TO\:0000157
 xref: IWIS_TRAITID:1326
 is_a: CO_321:0000140 ! Physiological trait
 
 [Term]
 id: CO_321:0000007
 name: Days to heading
-def: "Number of days required from sowing to spike emergence from the flag leaf of a plant or a group of plants. However, when planting in dry soils in dryland areas it is counted from the first day of rainfall or irrigation which is sufficient for germination." [Gramene Plant Trait Ontology:TO\:0000137]
+def: "Number of days required from sowing to spike emergence from the flag leaf of a plant or a group of plants. However, when planting in dry soils in dryland areas it is counted from the first day of rainfall or irrigation which is sufficient for germination." [Plant Trait Ontology:TO\:0000137]
 synonym: "DAYHD" RELATED []
 synonym: "DTH" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000137
+xref: Plant Trait Ontology:TO\:0000137
 xref: IWIS_TRAITID:1149
 is_a: CO_321:0000010 ! Phenological trait
 
@@ -73,7 +73,7 @@ def: "Number of days required from sowing to plant maturity. However, when plant
 synonym: "DAYSMT" RELATED []
 synonym: "DTM, MAT" RELATED []
 synonym: "maturity" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000469
+xref: Plant Trait Ontology:TO\:0000469
 xref: IWIS_TRAITID:1150
 is_a: CO_321:0000010 ! Phenological trait
 
@@ -84,7 +84,7 @@ def: "Visual rating of vegetative growth using Zadok growth stages and determine
 synonym: "early vigor, seedling vigor" RELATED []
 synonym: "ERLVIG" RELATED []
 synonym: "vegetative vigor" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000296
+xref: Plant Trait Ontology:TO\:0000296
 xref: IWIS_TRAITID:1167
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -103,7 +103,7 @@ def: "Percentage of grains that germinate under proper condition." [CO:rs]
 synonym: "GERMI%" RELATED []
 synonym: "GERMPCT" RELATED []
 synonym: "percent germination" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0010001
+xref: Plant Trait Ontology:TO\:0010001
 xref: IWIS_TRAITID:1307
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -113,7 +113,7 @@ name: Grain moisture
 def: "Moisture content of grain measured in percentage." [CO:rs]
 synonym: "grain moisture" RELATED []
 synonym: "GRNH20" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000057
+xref: Plant Trait Ontology:TO\:0000057
 xref: IWIS_TRAITID:1155
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -122,7 +122,7 @@ id: CO_321:0000013
 name: Grain yield
 def: "A measurement of the amount (weight) of grains that was harvested per unit area." [CO:rs]
 synonym: "GRNYLD" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000396
+xref: Plant Trait Ontology:TO\:0000396
 xref: IWIS_TRAITID:1144
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -140,7 +140,7 @@ id: CO_321:0000015
 name: Growth habit
 def: "A qualitative description of the growth habit of the plant whether erect/semi-erect/semi-spreading/spreading/prostrate." [CO:rs]
 synonym: "GHABIT" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0002756
+xref: Plant Trait Ontology:TO\:0002756
 xref: IWIS_TRAITID:1310
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -182,7 +182,7 @@ def: "Height of plant at maturity, measured in cm from ground to top of spike, e
 comment: Growth stage:  DS75-DS89.
 synonym: "PH" RELATED []
 synonym: "PLNTHT" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000207
+xref: Plant Trait Ontology:TO\:0000207
 xref: IWIS_TRAITID:1151
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -217,7 +217,7 @@ id: CO_321:0000024
 name: Relative plant height
 def: "Assessment of plant height compared to best local check which represents the best locally adopted germplasm at each location grown in standard or normal environment." [CO:rs]
 synonym: "RELPHT" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0001034
+xref: Plant Trait Ontology:TO\:0001034
 xref: IWIS_TRAITID:1387
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -225,12 +225,12 @@ is_a: CO_321:0000001 ! Agronomic trait
 id: CO_321:0000025
 name: 1000-grain weight
 def: "Determination of the weight of 1000 well-developed grains." [CO:rs]
-synonym: "1000-seed weight" RELATED [Gramene Plant Trait Ontology:TO\:0000382]
+synonym: "1000-seed weight" RELATED [Plant Trait Ontology:TO\:0000382]
 synonym: "1000GW" RELATED []
 synonym: "TGW" RELATED []
 synonym: "TGW, thousand grain weight, thousand kernel weight, TKW, THOUWT" RELATED []
 synonym: "THOUWT" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000382
+xref: Plant Trait Ontology:TO\:0000382
 xref: IWIS_TRAITID:1147
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -239,7 +239,7 @@ id: CO_321:0000026
 name: Awn length
 def: "Measurement of awn length in cm." [CO:rs]
 synonym: "AWNLNG" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000072
+xref: Plant Trait Ontology:TO\:0000072
 xref: IWIS_TRAITID:1417
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -249,7 +249,7 @@ name: Awnedness
 def: "Observation of awn type whether awnless/awnletted (short awns)/awned (conspicious awns)." [CO:rs]
 synonym: "awn presence" RELATED []
 synonym: "AWNS, awnedness, awned" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0002734
+xref: Plant Trait Ontology:TO\:0002734
 is_a: CO_321:0000002 ! Morphological trait
 
 [Term]
@@ -258,7 +258,7 @@ name: Chlorophyll content
 def: "Measures the chlorophyll content in a green tissue. Includes both chlorophyll-a and chlorophyll-b. Chlorophyll is the green pigment found in plants." [CO:rs]
 synonym: "CHL, CHLOC, CHLCONT" RELATED []
 synonym: "CLPHYL" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000495
+xref: Plant Trait Ontology:TO\:0000495
 xref: IWIS_TRAITID:1402
 is_a: CO_321:0000140 ! Physiological trait
 
@@ -267,7 +267,7 @@ id: CO_321:0000029
 name: Coleoptile length
 def: "Length of coleoptile (a protective sheath that surrounds the shoot tip and the embryonic leaves of the young shoot of grasses) is measured in cm." [CO:rs]
 synonym: "CLPLNG" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0001007
+xref: Plant Trait Ontology:TO\:0001007
 xref: IWIS_TRAITID:1425
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -284,7 +284,7 @@ id: CO_321:0000031
 name: Glume color
 def: "Color observation on the outer glume whether white/red to brown/purple to black at maturity." [CO:rs]
 synonym: "GLMCOL" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000221
+xref: Plant Trait Ontology:TO\:0000221
 xref: IWIS_TRAITID:1372
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -338,7 +338,7 @@ name: Grain color
 def: "Visual observation of the grain color." [CO:rs]
 synonym: "fruit color" RELATED []
 synonym: "GRNCOL" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0002617
+xref: Plant Trait Ontology:TO\:0002617
 xref: IWIS_TRAITID:1286
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -348,7 +348,7 @@ name: Grains per spike
 def: "Total number of grains per spikelet." [CO:rs]
 synonym: "grain per panicle" RELATED []
 synonym: "GRNSPK" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0002759
+xref: Plant Trait Ontology:TO\:0002759
 xref: IWIS_TRAITID:1156
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -367,7 +367,7 @@ id: CO_321:0000040
 name: Grain size
 def: "Visual observation of grains based on the grain size." [CO:rs]
 synonym: "GRNSIZ" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000391
+xref: Plant Trait Ontology:TO\:0000391
 xref: IWIS_TRAITID:1136
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -406,7 +406,7 @@ name: Leaf length
 def: "Measurement of leaf length in cm." [CO:rs]
 synonym: "LEAFLHG" RELATED []
 synonym: "LEFLNG" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000135
+xref: Plant Trait Ontology:TO\:0000135
 xref: IWIS_TRAITID:1404
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -435,7 +435,7 @@ name: Leaf thickness
 def: "Measurement of leaf thickness." [CO:rs]
 synonym: "LEAFTHK" RELATED []
 synonym: "LEFTHK" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000258
+xref: Plant Trait Ontology:TO\:0000258
 xref: IWIS_TRAITID:1406
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -446,7 +446,7 @@ def: "Visual observation of glaucousness in leaf." [CO:rs]
 synonym: "leaf gloss" RELATED []
 synonym: "LEAFGLAU" RELATED []
 synonym: "LEFWAX" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000709
+xref: Plant Trait Ontology:TO\:0000709
 xref: IWIS_TRAITID:1410
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -455,7 +455,7 @@ id: CO_321:0000049
 name: Leaf width
 def: "Measurement of leaf width in mm." [CO:rs]
 synonym: "LEFWID" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000370
+xref: Plant Trait Ontology:TO\:0000370
 xref: IWIS_TRAITID:1405
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -482,7 +482,7 @@ name: Peduncle length
 def: "Measurement of peduncle length in cm." [CO:rs]
 synonym: "PEDLN1, PEDLN2, PEDLN3, PEDLN4, PEDLN5" RELATED []
 synonym: "PEDLNG" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0002691
+xref: Plant Trait Ontology:TO\:0002691
 xref: IWIS_TRAITID:1400
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -517,7 +517,7 @@ name: Spike length
 def: "Measurement of spike length in cm." [CO:rs]
 synonym: "spikelet length" RELATED []
 synonym: "SPKLNG" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000040
+xref: Plant Trait Ontology:TO\:0000040
 xref: IWIS_TRAITID:1416
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -536,7 +536,7 @@ name: Spikelets per spike
 def: "Number of spikelets per spike." [AGPG:IBPGR/85/210]
 synonym: "panicle length" RELATED []
 synonym: "SPLSPK" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000565
+xref: Plant Trait Ontology:TO\:0000565
 xref: IWIS_TRAITID:1418
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -546,7 +546,7 @@ name: Stay green
 def: "Visual scoring based on an observation of leaves, stems and spikes of the plants when remain/maintain green at the time of senescing." [CO:rs]
 synonym: "STAGRE" RELATED []
 synonym: "STAYGREEN" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0002712
+xref: Plant Trait Ontology:TO\:0002712
 xref: IWIS_TRAITID:1166
 is_a: CO_321:0000140 ! Physiological trait
 
@@ -555,7 +555,7 @@ id: CO_321:0000060
 name: Stem height
 def: "Measurement of stem height in cm." [CO:rs]
 synonym: "STMHG, STMHG1, STMHG2, STMHG3, STMHG4, STMHG5" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000576
+xref: Plant Trait Ontology:TO\:0000576
 xref: IWIS_TRAITID:1399
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -573,7 +573,7 @@ id: CO_321:0000062
 name: Stem thickness
 def: "Measurement of stem thickness in mm." [CO:rs]
 synonym: "STMTHK" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000339
+xref: Plant Trait Ontology:TO\:0000339
 xref: IWIS_TRAITID:1414
 is_a: CO_321:0000002 ! Morphological trait
 
@@ -689,13 +689,13 @@ is_a: CO_321:0000003 ! Quality trait
 [Term]
 id: CO_321:0000076
 name: Abiotic stress trait
-def: "Response by the plants in terms of resistivity or sensitivity to abiotic stress." [Gramene Plant Trait Ontology:TO\:0000168]
+def: "Response by the plants in terms of resistivity or sensitivity to abiotic stress." [Plant Trait Ontology:TO\:0000168]
 is_a: CO_321:0000004 ! Stress trait
 
 [Term]
 id: CO_321:0000077
 name: Biotic stress trait
-def: "Response by the plants in terms of resistivity or sensitivity to biotic stress." [Gramene Plant Trait Ontology:TO\:0000179]
+def: "Response by the plants in terms of resistivity or sensitivity to biotic stress." [Plant Trait Ontology:TO\:0000179]
 is_a: CO_321:0000004 ! Stress trait
 
 [Term]
@@ -721,7 +721,7 @@ def: "Observation of plant growth at temperatures lower than the optimum tempera
 synonym: "CLDTOL" RELATED []
 synonym: "COLDTOL, low temperature tolerance, cold susceptibility" RELATED []
 synonym: "CTOL" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000303
+xref: Plant Trait Ontology:TO\:0000303
 xref: IWIS_TRAITID:1165
 is_a: CO_321:0000076 ! Abiotic stress trait
 
@@ -768,7 +768,7 @@ is_a: CO_321:0000089 ! Insect damage
 [Term]
 id: CO_321:0000086
 name: Armyworm damage
-def: "Scored for the plant damage caused by armyworm." [Gramene Plant Trait Ontology:TO\:0000273]
+def: "Scored for the plant damage caused by armyworm." [Plant Trait Ontology:TO\:0000273]
 comment: Scored for the plant damage caused by armyworm.
 synonym: "ARMDMG" RELATED []
 synonym: "AWRRS" RELATED []
@@ -783,7 +783,7 @@ def: "Scored for the plant damage caused by birds." [CO:rs]
 synonym: "BD" RELATED []
 synonym: "BIRDDMG, DMGBIR" RELATED []
 synonym: "DMGBIR" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000260
+xref: Plant Trait Ontology:TO\:0000260
 xref: IWIS_TRAITID:1021
 is_a: CO_321:0000083 ! Animal damage
 
@@ -799,7 +799,7 @@ is_a: CO_321:0000089 ! Insect damage
 [Term]
 id: CO_321:0000089
 name: Insect damage
-def: "Scored plant damage caused by any insects." [Gramene Plant Trait Ontology:TO\:0000261]
+def: "Scored plant damage caused by any insects." [Plant Trait Ontology:TO\:0000261]
 synonym: "DMGINS" RELATED []
 xref: IWIS_TRAITID:1019
 xref: IWIS_TRAITID:1171
@@ -812,7 +812,7 @@ def: "Scored for the plant damage caused by rodent." [CO:rs]
 synonym: "DMGROD" RELATED []
 synonym: "rat damage" EXACT []
 synonym: "RODDMG" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000117
+xref: Plant Trait Ontology:TO\:0000117
 xref: IWIS_TRAITID:1028
 is_a: CO_321:0000083 ! Animal damage
 
@@ -978,7 +978,7 @@ id: CO_321:0000109
 name: Nematode damage
 def: "Scored plant damage caused by nematodes." [CO:rs]
 synonym: "DMGNEM" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000384
+xref: Plant Trait Ontology:TO\:0000384
 xref: IWIS_TRAITID:1033
 is_a: CO_321:0000077 ! Biotic stress trait
 
@@ -1099,7 +1099,7 @@ name: Harvest index
 def: "A ratio of grain yield to total above ground biomass." [CO:rs]
 synonym: "HARIDX" RELATED []
 synonym: "HI" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000128
+xref: Plant Trait Ontology:TO\:0000128
 xref: IWIS_TRAITID:1161
 is_a: CO_321:0000001 ! Agronomic trait
 
@@ -1165,7 +1165,7 @@ is_a: CO_321:0000172 ! Septoria spot blotch
 [Term]
 id: CO_321:0000131
 name: Drought tolerance
-def: "An assessment of the plants tolerance to drought conditions." [Gramene Plant Trait Ontology:TO\:0000276]
+def: "An assessment of the plants tolerance to drought conditions." [Plant Trait Ontology:TO\:0000276]
 synonym: "DROUGHTTOL" RELATED []
 is_a: CO_321:0000076 ! Abiotic stress trait
 
@@ -1218,7 +1218,7 @@ creation_date: 2009-06-04T02:22:40Z
 id: CO_321:0000137
 name: Bacterial disease
 def: "Scored for the plan response to the diseases of wheat caused by various bacteria." [CO:rs]
-xref: Gramene Plant Trait Ontology:TO\:0000315
+xref: Plant Trait Ontology:TO\:0000315
 is_a: CO_321:0000077 ! Biotic stress trait
 created_by: RSHRESTHA
 creation_date: 2009-06-04T02:24:37Z
@@ -1270,7 +1270,7 @@ id: CO_321:0000143
 name: Stomatal frequency
 def: "Number of stomata counted per unit area on the leaf surface." [CO:rs]
 synonym: "STMFRQ" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000566
+xref: Plant Trait Ontology:TO\:0000566
 is_a: CO_321:0000002 ! Morphological trait
 created_by: RSHRESTHA
 creation_date: 2009-06-09T11:02:10Z
