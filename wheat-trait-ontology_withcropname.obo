@@ -1,6 +1,6 @@
 format-version: 1.2
 auto-generated-by: java
-default-namespace: wheat_trait
+default-namespace: wheat_
 ontology: co_321
 
 [Term]
@@ -8975,13 +8975,6 @@ name: wheat g/200 grain
 namespace: WheatScale
 relationship: scale_of CO_321:0000246 ! gw measurement
 
-[Term]
-id: TO:0000137
-is_a: CO_321:0000007 ! heading time
-
-[Term]
-id: TO:0000469
-is_a: CO_321:0000022 ! maturity time
 
 [Typedef]
 id: method_of
