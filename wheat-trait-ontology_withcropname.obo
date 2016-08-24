@@ -1,6 +1,6 @@
 format-version: 1.2
 auto-generated-by: java
-default-namespace: wheat_
+default-namespace: wheat_trait
 ontology: co_321
 
 [Term]
