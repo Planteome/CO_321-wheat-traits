@@ -1,6 +1,7 @@
 format-version: 1.2
 auto-generated-by: java
-default-namespace: cco
+default-namespace: wheat_trait
+ontology: co_321
 
 [Term]
 id: CO_321:0000005
@@ -3480,6 +3481,8 @@ namespace: WheatTrait
 def: "Strength of the culm." [CO:curators]
 synonym: "StmStrength" EXACT []
 synonym: "Straw strength, Culm strength" EXACT []
+
+[Term]
 id: CO_321:0000658
 name: wheat stem wall thickness
 namespace: WheatTrait
