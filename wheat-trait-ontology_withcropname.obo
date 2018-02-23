@@ -333,7 +333,7 @@ id: CO_321:0000057
 name: wheat spike shattering trait
 def: "Observation of grains dehiscence from spike at maturity." [CO:curators]
 synonym: "Shattering" EXACT []
-is_a: TO:0002629
+is_a: TO:0000473
 
 [Term]
 id: CO_321:0000058
