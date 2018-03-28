@@ -23,6 +23,7 @@ id: CO_321:0000007
 name: wheat heading time trait
 def: "Heading time extends from the time of emergence of the tip of the spike from the flag leaf sheath to when the spike has completely emerged but has not yet started to flower." [CO:curators]
 synonym: "Hd" EXACT []
+is_a: TO:0000137 ! days to heading
 
 [Term]
 id: CO_321:0000009
@@ -109,6 +110,7 @@ id: CO_321:0000022
 name: wheat maturity time trait
 def: "Maturity time starts at hard dough stage (ds87) often called physiological maturity." [CO:curators]
 synonym: "Mat" EXACT []
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_321:0000025
@@ -1008,10 +1010,11 @@ name: wheat plant hybrid necrosis incidence trait
 def: "Observation of hybrid necrosis." [CO:curators]
 synonym: "Dwarf clumping" EXACT []
 synonym: "HNecro" EXACT []
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000187
-name: wheat plant stand trait
+name: wheat plant stand
 def: "Plant population or plant density." [CO:curators]
 synonym: "Plant establishment, Crop stand, Plant density, Plant population" EXACT []
 synonym: "PlntStnd" EXACT []
@@ -3053,6 +3056,7 @@ name: wheat stem strength trait
 def: "Strength of the culm." [CO:curators]
 synonym: "StmStrength" EXACT []
 synonym: "Straw strength, Culm strength" EXACT []
+is_a: TO:0000051 ! stem strength
 
 [Term]
 id: CO_321:0000658
@@ -4168,12 +4172,14 @@ id: CO_321:0000925
 name: wheat fusarium graminearum plant response trait
 def: "Fusarium graminearum response in the plants." [CO:curators]
 synonym: "FgramResp" EXACT []
+is_a: TO:0000663 ! wheat fusarium head blight resistance
 
 [Term]
 id: CO_321:0000926
 name: wheat fusarium graminearum severity trait
 def: "Fusarium graminearum severity in the plants." [CO:curators]
 synonym: "FgramSev" EXACT []
+is_a: TO:0000663 ! wheat fusarium head blight resistance
 
 [Term]
 id: CO_321:0000927
@@ -4218,6 +4224,7 @@ name: wheat bacterial leaf blight severity trait
 def: "Wheat bacterial leaf blight severity in the plants caused by the agent pseudomonas syringae pv. syringae. symptoms: small (less than 0.04 inches) water-soaked lesions expand and eventually coalesce. initial lesions become necrotic and turn from gray-green to tan-white. entire leaves may become necrotic, but heads and glumes are typically symptomless." [CO:curators]
 synonym: "BLB, PSYRI" EXACT []
 synonym: "BLBSev" EXACT []
+is_a: TO:0000770 ! bacterial blight disease resistance
 
 [Term]
 id: CO_321:0000933
@@ -4323,6 +4330,7 @@ name: wheat bacterial leaf streak severity trait
 def: "Bacterial leaf streak severity in the plants caused by the agent xanthomonas translucens. the disease, called black chaff when on the glumes." [CO:curators]
 synonym: "BLS, black chaff" EXACT []
 synonym: "BLSSev" EXACT []
+is_a: TO:0000770 ! bacterial blight disease resistance
 
 [Term]
 id: CO_321:0001026
