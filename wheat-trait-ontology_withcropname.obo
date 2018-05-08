@@ -4330,7 +4330,7 @@ name: wheat bacterial leaf streak severity trait
 def: "Bacterial leaf streak severity in the plants caused by the agent xanthomonas translucens. the disease, called black chaff when on the glumes." [CO:curators]
 synonym: "BLS, black chaff" EXACT []
 synonym: "BLSSev" EXACT []
-is_a: TO:0000770 ! bacterial blight disease resistance
+is_a: TO:0020066 ! barley leaf streak resistance
 
 [Term]
 id: CO_321:0001026
