@@ -886,7 +886,7 @@ name: wheat agronomic score trait
 def: "Rating of overall agronomic attributes and health of plants." [CO:curators]
 synonym: "AgrScr" EXACT []
 synonym: "Phenotypic acceptability" EXACT []
-is_a: TO:0000250
+is_a: TO:0000322 ! phenotypic acceptability
 
 [Term]
 id: CO_321:0000164
