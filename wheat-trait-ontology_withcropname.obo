@@ -118,7 +118,7 @@ name: wheat grain weight trait
 def: "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." [CO:curators]
 synonym: "GW" EXACT []
 synonym: "kernel weight" EXACT []
-is_a: TO:0002746
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_321:0000026
