@@ -212,7 +212,7 @@ id: CO_321:0000039
 name: wheat grain plumpness trait
 def: "The degree of endosperm filling." [CO:curators]
 synonym: "GPlump" EXACT []
-is_a: TO:0002629
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_321:0000040
@@ -3048,7 +3048,7 @@ name: wheat grain appearance trait
 def: "Appearance of a single grain." [CO:curators]
 synonym: "GApp" EXACT []
 synonym: "Kernel appearance" EXACT []
-is_a: TO:0002629
+is_a: TO:0001079 ! caryopsis fruit morphology trait
 
 [Term]
 id: CO_321:0000657
