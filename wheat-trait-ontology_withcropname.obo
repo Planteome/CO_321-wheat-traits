@@ -9,14 +9,14 @@ name: wheat aboveground biomass at maturity trait
 def: "All above-ground biomass at maturity." [CO:curators]
 synonym: "Biological yield" EXACT []
 synonym: "BM" EXACT []
-is_a: TO:0000327
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_321:0000006
 name: wheat canopy temperature depression trait
 def: "Difference between ambient temperature and canopy temperature" [CO:curators]
 synonym: "CTD" EXACT []
-is_a: TO:0000157
+is_a: TO:0000157 ! canopy temperature
 
 [Term]
 id: CO_321:0000007
@@ -31,7 +31,7 @@ name: wheat plant early vigour trait
 def: "Capacity of a seedling or plant to grow vegetatively in early stages of development." [CO:curators]
 synonym: "ErlVig" EXACT []
 synonym: "Seedling vigour, Plant early vigor" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000011
@@ -39,42 +39,42 @@ name: wheat grain germination trait
 def: "Proportion of seed that germinate under proper condition." [CO:curators]
 synonym: "Germ" EXACT []
 synonym: "Seed germination" EXACT []
-is_a: TO:0000202
+is_a: TO:0000202 ! germination ratio
 
 [Term]
 id: CO_321:0000012
 name: wheat grain moisture content trait
 def: "Moisture content of grain." [CO:curators]
 synonym: "GMoi" EXACT []
-is_a: TO:0000057
+is_a: TO:0000057 ! grain moisture
 
 [Term]
 id: CO_321:0000013
 name: wheat grain yield trait
 def: "Amount (weight) of grains that was harvested." [CO:curators]
 synonym: "GY" EXACT []
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_321:0000014
 name: wheat crop ground cover trait
 def: "Crop ground cover, or the percentage of soil surface covered by plant foliage." [CO:curators]
 synonym: "GrndCov" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000015
 name: wheat plant growth habit trait
 def: "The growth habit of the plant whether erect/semi-erect/semi-spreading/spreading/prostrate." [CO:curators]
 synonym: "GrwHabit" EXACT []
-is_a: TO:0002756
+is_a: TO:0002756 ! shoot growth angle
 
 [Term]
 id: CO_321:0000016
 name: wheat growth stage trait
 def: "Growth/developmental stages based on zadoks decimal code." [CO:curators]
 synonym: "GrwStg" EXACT []
-is_a: TO:0000928
+is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_321:0000017
@@ -82,7 +82,7 @@ name: wheat grain number trait
 def: "Number of grains expressed as per unit area or sample." [CO:curators]
 synonym: "GN" EXACT []
 synonym: "Kernel number" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759 ! grain number
 
 [Term]
 id: CO_321:0000018
@@ -125,14 +125,14 @@ id: CO_321:0000026
 name: wheat awn length trait
 def: "Awn length." [CO:curators]
 synonym: "AwnLng" EXACT []
-is_a: TO:0000072
+is_a: TO:0000072 ! awn length
 
 [Term]
 id: CO_321:0000027
 name: wheat spike awnedness trait
 def: "Observation of awn type whether awnless/awnletted (short awns)/awned (conspicious awns)." [CO:curators]
 synonym: "Awns" EXACT []
-is_a: TO:0000373
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000028
@@ -205,7 +205,7 @@ name: wheat grain number per spike trait
 def: "Number of grains per spike." [CO:curators]
 synonym: "GrnSpk" EXACT []
 synonym: "Kernel number per spike, grains per spike" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759  ! grain number
 
 [Term]
 id: CO_321:0000039
@@ -220,7 +220,7 @@ name: wheat grain size trait
 def: "Grain size." [CO:curators]
 synonym: "GSize" EXACT []
 synonym: "Kernel size" EXACT []
-is_a: TO:0002625
+is_a: TO:0002625 ! fruit size
 
 [Term]
 id: CO_321:0000041
@@ -228,7 +228,7 @@ name: wheat grain number per spikelet trait
 def: "Number of grains per spikelet." [CO:curators]
 synonym: "GrnSpl" EXACT []
 synonym: "Kernel number per spikelet" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759  ! grain number
 
 [Term]
 id: CO_321:0000042
@@ -236,7 +236,7 @@ name: wheat grain vitreousness trait
 def: "One of the key quality parameters in the determination of durum quality referring to translucent or glass-like appearance when seeds are transversely sectioned and observed whether not vitreous/partly vitreous/vitreous. it is associated with high protein and hard grain." [CO:curators]
 synonym: "GVtr" EXACT []
 synonym: "Seed vitreousness" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000044
@@ -321,7 +321,7 @@ name: wheat spike density trait
 def: "Density or compactness of a wheat spike." [CO:curators]
 synonym: "Spike compactness, ear compactness" EXACT []
 synonym: "SpkDen" EXACT []
-is_a: TO:0000373
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000056
@@ -503,7 +503,7 @@ id: CO_321:0000082
 name: wheat alternaria leaf blight plant response trait
 def: "Alternaria leaf blight response in the plants caused by the agent alternaria triticina." [CO:curators]
 synonym: "AtritResp" EXACT []
-is_a: TO:0000179
+is_a: 	TO:0000439 ! 	fungal disease resistance
 
 [Term]
 id: CO_321:0000084
@@ -909,7 +909,7 @@ name: wheat spike number trait
 def: "Number of spikes (fertile culms) per unit area, sample or plant." [CO:curators]
 synonym: "Ear number" EXACT []
 synonym: "SN" EXACT []
-is_a: TO:0000582
+is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_321:0000167
@@ -3063,14 +3063,14 @@ id: CO_321:0000658
 name: wheat stem wall thickness trait
 def: "Stem wall thickness." [CO:curators]
 synonym: "StmWallThk" EXACT []
-is_a: TO:0000361
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_321:0000659
 name: wheat spike threshability trait
 def: "Threshability (ease to thresh) is a score where several spike-related traits such as rachis fragility (brittle or non-brittle rachis) and glume tenacity (hulled or free-threshing)." [CO:curators]
 synonym: "Threshblty" EXACT []
-is_a: TO:0000373
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000664
@@ -3164,7 +3164,7 @@ id: CO_321:0000682
 name: wheat root disease development trait
 def: "The plant damage caused by root diseases." [CO:curators]
 synonym: "RootDis" EXACT []
-is_a: TO:0000179
+is_a: TO:0000112 ! disease resistance
 
 [Term]
 id: CO_321:0000683
@@ -3178,7 +3178,7 @@ id: CO_321:0000684
 name: wheat spike disease development trait
 def: "The plant damage caused by spike diseases." [CO:curators]
 synonym: "SpkDis" EXACT []
-is_a: TO:0000179
+is_a: TO:0000112 ! disease resistance
 
 [Term]
 id: CO_321:0000685
