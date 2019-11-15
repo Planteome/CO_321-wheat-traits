@@ -9,14 +9,14 @@ name: wheat aboveground biomass at maturity trait
 def: "All above-ground biomass at maturity." [CO:curators]
 synonym: "Biological yield" EXACT []
 synonym: "BM" EXACT []
-is_a: TO:0000327
+is_a: TO:0000327 ! shoot system yield trait
 
 [Term]
 id: CO_321:0000006
 name: wheat canopy temperature depression trait
 def: "Difference between ambient temperature and canopy temperature" [CO:curators]
 synonym: "CTD" EXACT []
-is_a: TO:0000157
+is_a: TO:0000157 ! canopy temperature
 
 [Term]
 id: CO_321:0000007
@@ -31,7 +31,7 @@ name: wheat plant early vigour trait
 def: "Capacity of a seedling or plant to grow vegetatively in early stages of development." [CO:curators]
 synonym: "ErlVig" EXACT []
 synonym: "Seedling vigour, Plant early vigor" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000011
@@ -39,42 +39,42 @@ name: wheat grain germination trait
 def: "Proportion of seed that germinate under proper condition." [CO:curators]
 synonym: "Germ" EXACT []
 synonym: "Seed germination" EXACT []
-is_a: TO:0000202
+is_a: TO:0000202 ! germination ratio
 
 [Term]
 id: CO_321:0000012
 name: wheat grain moisture content trait
 def: "Moisture content of grain." [CO:curators]
 synonym: "GMoi" EXACT []
-is_a: TO:0000057
+is_a: TO:0000057 ! grain moisture
 
 [Term]
 id: CO_321:0000013
 name: wheat grain yield trait
 def: "Amount (weight) of grains that was harvested." [CO:curators]
 synonym: "GY" EXACT []
-is_a: TO:0000396
+is_a: TO:0000396 ! grain yield trait
 
 [Term]
 id: CO_321:0000014
 name: wheat crop ground cover trait
 def: "Crop ground cover, or the percentage of soil surface covered by plant foliage." [CO:curators]
 synonym: "GrndCov" EXACT []
-is_a: TO:0000250
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000015
 name: wheat plant growth habit trait
 def: "The growth habit of the plant whether erect/semi-erect/semi-spreading/spreading/prostrate." [CO:curators]
 synonym: "GrwHabit" EXACT []
-is_a: TO:0002756
+is_a: TO:0002756 ! shoot growth angle
 
 [Term]
 id: CO_321:0000016
 name: wheat growth stage trait
 def: "Growth/developmental stages based on zadoks decimal code." [CO:curators]
 synonym: "GrwStg" EXACT []
-is_a: TO:0000928
+is_a: TO:0000928 ! plant structure growth and development trait
 
 [Term]
 id: CO_321:0000017
@@ -82,7 +82,7 @@ name: wheat grain number trait
 def: "Number of grains expressed as per unit area or sample." [CO:curators]
 synonym: "GN" EXACT []
 synonym: "Kernel number" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759 ! grain number
 
 [Term]
 id: CO_321:0000018
@@ -125,14 +125,14 @@ id: CO_321:0000026
 name: wheat awn length trait
 def: "Awn length." [CO:curators]
 synonym: "AwnLng" EXACT []
-is_a: TO:0000072
+is_a: TO:0000072 ! awn length
 
 [Term]
 id: CO_321:0000027
 name: wheat spike awnedness trait
 def: "Observation of awn type whether awnless/awnletted (short awns)/awned (conspicious awns)." [CO:curators]
 synonym: "Awns" EXACT []
-is_a: TO:0000373
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000028
@@ -197,7 +197,7 @@ name: wheat grain color trait
 def: "Grain color." [CO:curators]
 synonym: "GCol" EXACT []
 synonym: "Kernel color" EXACT []
-is_a: TO:0002617
+is_a: TO:0001109 ! grain color trait
 
 [Term]
 id: CO_321:0000038
@@ -205,7 +205,7 @@ name: wheat grain number per spike trait
 def: "Number of grains per spike." [CO:curators]
 synonym: "GrnSpk" EXACT []
 synonym: "Kernel number per spike, grains per spike" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759  ! grain number
 
 [Term]
 id: CO_321:0000039
@@ -220,7 +220,7 @@ name: wheat grain size trait
 def: "Grain size." [CO:curators]
 synonym: "GSize" EXACT []
 synonym: "Kernel size" EXACT []
-is_a: TO:0002625
+is_a: TO:0002625 ! fruit size
 
 [Term]
 id: CO_321:0000041
@@ -228,7 +228,7 @@ name: wheat grain number per spikelet trait
 def: "Number of grains per spikelet." [CO:curators]
 synonym: "GrnSpl" EXACT []
 synonym: "Kernel number per spikelet" EXACT []
-is_a: TO:0002759
+is_a: TO:0002759  ! grain number
 
 [Term]
 id: CO_321:0000042
@@ -236,7 +236,7 @@ name: wheat grain vitreousness trait
 def: "One of the key quality parameters in the determination of durum quality referring to translucent or glass-like appearance when seeds are transversely sectioned and observed whether not vitreous/partly vitreous/vitreous. it is associated with high protein and hard grain." [CO:curators]
 synonym: "GVtr" EXACT []
 synonym: "Seed vitreousness" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000044
@@ -321,7 +321,7 @@ name: wheat spike density trait
 def: "Density or compactness of a wheat spike." [CO:curators]
 synonym: "Spike compactness, ear compactness" EXACT []
 synonym: "SpkDen" EXACT []
-is_a: TO:0000373
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000056
@@ -387,35 +387,35 @@ id: CO_321:0000064
 name: wheat cookie spread factor trait
 def: "The ratio between average height and width of cookies." [CO:curators]
 synonym: "CookSdF" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000065
 name: wheat bread crumb structure trait
 def: "The cellular structure of wheat bread crumb." [CO:curators]
 synonym: "CrmStr" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000066
 name: wheat flour falling number trait
 def: "The falling number is defined as the time in seconds required stirring and allowing stirrer to fall a measured distance through a hot aqueous flour or meal gel undergoing liquefaction due to a-amylase activity." [CO:curators]
 synonym: "FlrFN" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000067
 name: wheat flour protein content trait
 def: "Total protein content (corrected to 12.5% moisture basis) in refined flour." [CO:curators]
 synonym: "FlrProt" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000068
 name: wheat flour yield trait
 def: "Proportion of flour recovered during milling." [CO:curators]
 synonym: "FlrYld" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000069
@@ -423,14 +423,14 @@ name: wheat flour gluten content trait
 def: "Content of wet gluten in flour." [CO:curators]
 synonym: "FLRGluCon" EXACT []
 synonym: "GLUCON" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000070
 name: wheat flour gluten type trait
 def: "Gluten type whether weak-tenacious/tenacious/weak/medium strong/strong." [CO:curators]
 synonym: "GluTyp" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000071
@@ -503,7 +503,7 @@ id: CO_321:0000082
 name: wheat alternaria leaf blight plant response trait
 def: "Alternaria leaf blight response in the plants caused by the agent alternaria triticina." [CO:curators]
 synonym: "AtritResp" EXACT []
-is_a: TO:0000179
+is_a: 	TO:0000439 ! 	fungal disease resistance
 
 [Term]
 id: CO_321:0000084
@@ -710,7 +710,7 @@ id: CO_321:0000124
 name: wheat bread loaf volume trait
 def: "Baking quality of flour describing bread loaf volume." [CO:curators]
 synonym: "LofVol" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000126
@@ -774,7 +774,7 @@ name: wheat dough alveograph value w trait
 def: "Dough strength by alveograph. w value is the area under the curve. it is a combination of dough strength (p value) and extensibility (l value)." [CO:curators]
 synonym: "AlvW" EXACT []
 synonym: "W value, Strength of dough" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000145
@@ -782,7 +782,7 @@ name: wheat dough alveograph p/l trait
 def: "Ratio of tenacity (p; maximum pressure required for the deformation of the sample) and extensibility (l; length of the curve) of dough." [CO:curators]
 synonym: "AlvPL" EXACT []
 synonym: "Dough strength and extensibility" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000146
@@ -790,7 +790,7 @@ name: wheat flour sds sedimentation trait
 def: "Testing of refined flour quality by sds-sedimentation, a test estimating gluten-protein overall quality." [CO:curators]
 synonym: "FLRSDS" EXACT []
 synonym: "FlrSDS" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000147
@@ -805,49 +805,49 @@ id: CO_321:0000149
 name: wheat dough mixograph mixing time trait
 def: "Time required for the dough development from beginning of mixing flour and water to the dough reaches maximum consistency (peak)." [CO:curators]
 synonym: "MixTim" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000152
 name: wheat glutenin glu-a1 composition trait
 def: "High molecular weight glutenin subunits of glu-a1." [CO:curators]
 synonym: "GluA1" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000153
 name: wheat glutenin glu-b1 composition trait
 def: "High molecular weight glutenin subunits of glu-b1." [CO:curators]
 synonym: "GluB1" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000154
 name: wheat glutenin glu-d1 composition trait
 def: "High molecular weight glutenin subunits of glu-d1." [CO:curators]
 synonym: "GluD1" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000155
 name: wheat glutenin glu-a3 composition trait
 def: "Low molecular weight glutenin subunits of glu-a3." [CO:curators]
 synonym: "GluA3" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000156
 name: wheat glutenin glu-b3 composition trait
 def: "Low molecular weight glutenin subunits of glu-b3." [CO:curators]
 synonym: "GluB3" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000157
 name: wheat glutenin glu-d3 composition trait
 def: "Low molecular weight glutenin subunits of glu-d3." [CO:curators]
 synonym: "GluD3" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000158
@@ -871,7 +871,7 @@ name: wheat flour sds sedimentation index trait
 def: "Is the result of dividing sedimentation volume by flour protein content." [CO:curators]
 synonym: "SedIdx" EXACT []
 synonym: "Specific sedimentation value, Relative sedimentation index" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000161
@@ -909,7 +909,7 @@ name: wheat spike number trait
 def: "Number of spikes (fertile culms) per unit area, sample or plant." [CO:curators]
 synonym: "Ear number" EXACT []
 synonym: "SN" EXACT []
-is_a: TO:0000582
+is_a: TO:0000582 ! inflorescence number
 
 [Term]
 id: CO_321:0000167
@@ -1060,7 +1060,7 @@ id: CO_321:0000195
 name: wheat grain carbon isotope discrimination trait
 def: "Grain carbon isotope discrimination at maturity from drought trials provides genotypic effects most likely to be related to transpiration rate or an integrative measurement of stomatal conductance." [CO:curators]
 synonym: "GCID" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000196
@@ -1165,7 +1165,7 @@ id: CO_321:0000210
 name: wheat dough alveograph extensibility index trait
 def: "It is the extensibility index of the dough. (p200/p)*100; p200: pressure (p) at 4 cm (l= 40mm) of the curve." [CO:curators]
 synonym: "AlvIe" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000211
@@ -1173,7 +1173,7 @@ name: wheat dough alveograph value g trait
 def: "G stands for the square root of the volume of air in the bubble that was possible before the bubble burst. shows how flexible the dough was during the test." [CO:curators]
 synonym: "AlvG" EXACT []
 synonym: "G value, Index of swelling" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000212
@@ -1181,7 +1181,7 @@ name: wheat dough alveograph value l trait
 def: "L value is the extensibility of the dough before the bubble breaks. it is indicated by the length of the curve." [CO:curators]
 synonym: "AlvL" EXACT []
 synonym: "L value, Dough extensibility" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000213
@@ -1189,7 +1189,7 @@ name: wheat dough alveograph value p trait
 def: "P value is the force required to blow the bubble of dough. it is indicated by the maximum height of the curve." [CO:curators]
 synonym: "AlvP" EXACT []
 synonym: "P value, Dough resistance, Dough tenacity" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000214
@@ -1232,7 +1232,7 @@ id: CO_321:0000225
 name: wheat dough mixograph torque trait
 def: "It is the torque measured during the mixograph test." [CO:curators]
 synonym: "MixTq" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000227
@@ -1246,7 +1246,7 @@ id: CO_321:0000228
 name: wheat dough mixograph type trait
 def: "Mixograph type (mixograph curve) is used for determining the strength of dough." [CO:curators]
 synonym: "MixTyp" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000229
@@ -2282,7 +2282,7 @@ name: wheat dough alveograph p/g trait
 def: "It is the p/g ratio." [CO:curators]
 synonym: "AlvPG" EXACT []
 synonym: "Tenacity/extensibility ratio" EXACT []
-is_a: TO:0001069
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_321:0000396
@@ -3063,14 +3063,14 @@ id: CO_321:0000658
 name: wheat stem wall thickness trait
 def: "Stem wall thickness." [CO:curators]
 synonym: "StmWallThk" EXACT []
-is_a: TO:0000361
+is_a: TO:0000361 ! stem morphology trait
 
 [Term]
 id: CO_321:0000659
 name: wheat spike threshability trait
 def: "Threshability (ease to thresh) is a score where several spike-related traits such as rachis fragility (brittle or non-brittle rachis) and glume tenacity (hulled or free-threshing)." [CO:curators]
 synonym: "Threshblty" EXACT []
-is_a: TO:0000373
+is_a: TO:0001110 ! spike inflorescence morphology trait
 
 [Term]
 id: CO_321:0000664
@@ -3114,7 +3114,7 @@ id: CO_321:0000673
 name: wheat flour yellowness trait
 def: "Flour yellowness." [CO:curators]
 synonym: "FlrYellCls" EXACT []
-is_a: TO:0000669
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000674
@@ -3164,7 +3164,7 @@ id: CO_321:0000682
 name: wheat root disease development trait
 def: "The plant damage caused by root diseases." [CO:curators]
 synonym: "RootDis" EXACT []
-is_a: TO:0000179
+is_a: TO:0000112 ! disease resistance
 
 [Term]
 id: CO_321:0000683
@@ -3178,7 +3178,7 @@ id: CO_321:0000684
 name: wheat spike disease development trait
 def: "The plant damage caused by spike diseases." [CO:curators]
 synonym: "SpkDis" EXACT []
-is_a: TO:0000179
+is_a: TO:0000112 ! disease resistance
 
 [Term]
 id: CO_321:0000685
