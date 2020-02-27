@@ -7959,6 +7959,2437 @@ id: CO_321:0001433
 name: wheat g/200 grain scale
 relationship: scale_of CO_321:0000246 ! gw measurement
 
+[Term]
+id: CO_321:0500001
+name: wheat baking quality trait
+def: "Baking quality assessment" [CO:curators]
+synonym: "BQ" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0001069
+
+[Term]
+id: CO_321:0500002
+name: wheat barley yellow dwarf plant response trait
+def: "Plant response to barley yellow dwarf virus." [CO:curators]
+synonym: "BYDResp" EXACT []
+is_a: TO:0020067
+
+[Term]
+id: CO_321:0500003
+name: wheat canopy senescence trait
+def: "Percentage (%) of leaf area (canopy) that has lost green color during the process of physiological maturity" [CO:curators]
+synonym: "CanopySen" EXACT []
+is_a: TO:0000249
+
+[Term]
+id: CO_321:0500004
+name: wheat canopy temperature trait
+def: "Surface temperature of the canopy" [CO:curators]
+synonym: "CanopyTemp" EXACT []
+
+[Term]
+id: CO_321:0500005
+name: wheat canopy temperature depression trait
+def: "Canopy temperature depression (CTD) is the difference between the ambient air temperature (Ta) and the canopy temperature (Tc): CTD=Ta-Tc." [CO:curators]
+synonym: "CanopyTempDep" EXACT []
+
+[Term]
+id: CO_321:0500006
+name: wheat cookie diameter trait
+def: "Diameter of sugar snap cookie. Reflects genetic and environmental factors. Cookie diameters should be compared to those of standard cultivars." [CO:curators]
+synonym: "CD" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0001069
+
+[Term]
+id: CO_321:0500007
+name: wheat fertile spikelet number trait
+def: "Number of fertile spikelets per spike." [CO:curators]
+synonym: "FertSpkN" EXACT []
+is_a: TO:0000436
+
+[Term]
+id: CO_321:0500008
+name: wheat flag leaf angle trait
+def: "Visual estimation of flag leaf angle" [CO:curators]
+synonym: "FLeafAng" EXACT []
+is_a: TO:0000124
+
+[Term]
+id: CO_321:0500009
+name: wheat flag leaf chlorophyll content trait
+def: "Chlorophyll content of the flag leaf" [CO:curators]
+synonym: "FLeafChl" EXACT []
+is_a: TO:0012002
+
+[Term]
+id: CO_321:0500010
+name: wheat flag leaf glaucousness trait
+def: "Assessment of glaucousness in flag leaf" [CO:curators]
+synonym: "FLeafGlau" EXACT []
+is_a: TO:0000832
+
+[Term]
+id: CO_321:0500011
+name: wheat flag leaf senescence time trait
+def: "Number of days required for 50% of the flag leaves to lose green color." [CO:curators]
+synonym: "FLeafSenTime" EXACT []
+is_a: TO:0000249
+
+[Term]
+id: CO_321:0500012
+name: wheat flag leaf stay-green time trait
+def: "Number of days between heading and flag leaf senescence (= flag leaf senescence - days to heading)." [CO:curators]
+synonym: "FLeafGreenTime" EXACT []
+is_a: TO:0002712
+
+[Term]
+id: CO_321:0500013
+name: wheat forage ash content trait
+def: "Ash concentration of forage" [CO:curators]
+synonym: "ForAsh" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000607
+
+[Term]
+id: CO_321:0500014
+name: wheat forage fiber content trait
+def: "Fober concentration of forage" [CO:curators]
+synonym: "ForFib" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0002642
+
+[Term]
+id: CO_321:0500015
+name: wheat forage moisture content trait
+def: "Moisture in forage sample" [CO:curators]
+synonym: "ForMst" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000228
+
+[Term]
+id: CO_321:0500016
+name: wheat forage ndf content trait
+def: "Neutral detergent fiber concentration of forage" [CO:curators]
+synonym: "ForNDF" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0002642
+
+[Term]
+id: CO_321:0500017
+name: wheat forage protein content trait
+def: "Protein concentration of forage" [CO:curators]
+synonym: "ForPrt" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000598
+
+[Term]
+id: CO_321:0500018
+name: wheat forage starch content trait
+def: "Starch concentration of forage" [CO:curators]
+synonym: "ForStr" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000696
+
+[Term]
+id: CO_321:0500019
+name: wheat fusarium head blight disease index trait
+def: "Fusarium head blight (scab) disease index. Index calculated as the disease incidence x severity/100, where incidence= % infected spikes in the sample (non-zero spikes/total spikes evaluated x 100), and severity= % of infected spikelets per spike." [CO:curators]
+synonym: "FHBDI" EXACT []
+is_a: TO:0000663
+
+[Term]
+id: CO_321:0500020
+name: wheat fusarium head blight diseased florets trait
+def: "Percentage of florets infected with Fusarium head blight (FHB) following point inoculation." [CO:curators]
+synonym: "FHBFlorets" EXACT []
+is_a: TO:0000663
+
+[Term]
+id: CO_321:0500021
+name: wheat fusarium head blight isk index trait
+def: "Fusarium head blight (scab) ISK Index." [CO:curators]
+synonym: "FHBISK" EXACT []
+is_a: TO:0000663
+
+[Term]
+id: CO_321:0500022
+name: wheat glaucousness trait
+def: "Overall plant glaucousness" [CO:curators]
+synonym: "Glau" EXACT []
+synonym: "waxiness" EXACT []
+is_a: TO:0000709
+
+[Term]
+id: CO_321:0500023
+name: wheat glume pubescence presence trait
+def: "The presence of fine hairs on the external face of the glumes" [CO:curators]
+synonym: "GlmPub" EXACT []
+synonym: "glume pubescence" EXACT []
+is_a: TO:0020036
+
+[Term]
+id: CO_321:0500024
+name: wheat grain arsenic content trait
+def: "Content of Arsenic in grain." [CO:curators]
+synonym: "GArse" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006054
+
+[Term]
+id: CO_321:0500025
+name: wheat grain ash content trait
+def: "Grain ash concentration" [CO:curators]
+synonym: "GrnAsh" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000607
+
+[Term]
+id: CO_321:0500026
+name: wheat grain cadmium content trait
+def: "Content of Cadmium in grain." [CO:curators]
+synonym: "GCadm" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006059
+
+[Term]
+id: CO_321:0500027
+name: wheat grain calcium content trait
+def: "Content of Calcium in grain." [CO:curators]
+synonym: "GCalc" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006047
+
+[Term]
+id: CO_321:0500028
+name: wheat grain cobalt content trait
+def: "Content of Cobalt in grain." [CO:curators]
+synonym: "GCoba" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0001044
+
+[Term]
+id: CO_321:0500029
+name: wheat grain copper content trait
+def: "Content of Copper in grain." [CO:curators]
+synonym: "GCopp" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0020092
+
+[Term]
+id: CO_321:0500030
+name: wheat grain lead content trait
+def: "Content of Lead in grain." [CO:curators]
+synonym: "GLead" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0001047
+
+[Term]
+id: CO_321:0500031
+name: wheat grain lithium content trait
+def: "Content of Lithium in grain." [CO:curators]
+synonym: "GLith" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006042
+
+[Term]
+id: CO_321:0500032
+name: wheat grain magnesium content trait
+def: "Content of Magnesium in grain." [CO:curators]
+synonym: "GMagn" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006044
+
+[Term]
+id: CO_321:0500033
+name: wheat grain manganese content trait
+def: "Content Manganese in grain." [CO:curators]
+synonym: "GMang" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0020091
+
+[Term]
+id: CO_321:0500034
+name: wheat grain molybdenum content trait
+def: "Content of Molybdenum in grain." [CO:curators]
+synonym: "GMoly" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006056
+
+[Term]
+id: CO_321:0500035
+name: wheat grain nickel content trait
+def: "Content of Nickel in grain." [CO:curators]
+synonym: "GNick" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006051
+
+[Term]
+id: CO_321:0500036
+name: wheat grain potassium content trait
+def: "Content of Potasium in grain." [CO:curators]
+synonym: "GPota" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000609
+
+[Term]
+id: CO_321:0500037
+name: wheat grain sulphur content trait
+def: "Content of Sulphur in grain." [CO:curators]
+synonym: "GSulp" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0006046
+
+[Term]
+id: CO_321:0500038
+name: wheat grain width trait
+def: "Width of grain" [CO:curators]
+synonym: "GWid" EXACT []
+is_a: TO:0000975
+
+[Term]
+id: CO_321:0500039
+name: wheat lactic acid src trait
+def: "Lactic acid solvent retention capacity" [CO:curators]
+synonym: "LASRC" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000162
+
+[Term]
+id: CO_321:0500040
+name: wheat micro test weight trait
+def: "Micro Test Weight" [CO:curators]
+synonym: "MTW" EXACT []
+is_a: TO:0000919
+
+[Term]
+id: CO_321:0500041
+name: wheat milling quality trait
+def: "Flour yield of a genotype relative to the standard variety used for that nursery" [CO:curators]
+synonym: "MQ" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000162
+
+[Term]
+id: CO_321:0500042
+name: wheat modified softness equivalent trait
+def: "Softness equivalent is a flour particle size test that is correlated to break flour yields. Softness equivalent rating of a genotype relative to the standard variety used for that nursery." [CO:curators]
+synonym: "MSE" EXACT []
+is_a: CO_321:1000003
+
+[Term]
+id: CO_321:0500043
+name: wheat nivalenol level trait
+def: "Nivalenol concentration" [CO:curators]
+synonym: "NIV" EXACT []
+is_a: TO_0000668
+
+[Term]
+id: CO_321:0500044
+name: wheat polyphenol oxidase activity trait
+def: "Measures oxidation of an L-DOPA substrate to a red-colored product as an indirect measure of PPO activity" [CO:curators]
+synonym: "PPOActivity" EXACT []
+is_a: CO_321:1000003
+
+[Term]
+id: CO_321:0500045
+name: wheat powdery midlew plant response trait
+def: "Powdery mildew plant response caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators]
+synonym: "EgramResp" EXACT []
+is_a: TO:0020061
+
+[Term]
+id: CO_321:0500046
+name: wheat pseudo-black glume color trait
+def: "Pseudo-black chaff or melanism. False black chaff is a physiological condition resulting from a deposition of melaniod pigments and is completely associated with the presence of the stem rust resistance gene Sr2. Symptoms include brown to black discoloration of the glume extending from slight longitudinal marks to large black areas covering most of the glume surface. In severe expression, the stem area below the last node may become distinctly brown to black discoloured. The trait appears post-flowering with a peak at late milk-soft dough stage." [CO:curators]
+synonym: "BlkGlmCol" EXACT []
+is_a: TO:0000221
+
+[Term]
+id: CO_321:0500047
+name: wheat septoria nodorum blotch plant response trait
+def: "Septoria nodorum blotch plant response caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (E. M√ºller) Hedjaroude (syn. Stagonospora nodorum)." [CO:curators]
+synonym: "SnodoResp" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_321:0500048
+name: wheat softness equivalent trait
+def: "Softness equivalent is a flour particle size test that is correlated to break flour yields" [CO:curators]
+synonym: "SE" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0002646
+
+[Term]
+id: CO_321:0500049
+name: wheat soil borne mosaic infection coefficient trait
+def: "Soil borne mosaic infection coefficient" [CO:curators]
+synonym: "SBMVCI" EXACT []
+is_a: TO:0000148
+
+[Term]
+id: CO_321:0500050
+name: wheat soil borne mosaic plant response trait
+def: "Soil borne mosaic response in the plants caused by the agent Polymyxa graminis." [CO:curators]
+synonym: "SBMVResp" EXACT []
+is_a: TO:0000148
+
+[Term]
+id: CO_321:0500051
+name: wheat spike color trait
+def: "Color of spike." [CO:curators]
+synonym: "SpkCol" EXACT []
+is_a: TO:0001110
+
+[Term]
+id: CO_321:0500052
+name: wheat spike glaucousness trait
+def: "Glaucousness on spike" [CO:curators]
+synonym: "SpkGlau" EXACT []
+is_a: TO:0001110
+
+[Term]
+id: CO_321:0500053
+name: wheat stem rust incidence trait
+def: "Stem rust (black rust) incidence in the plants caused by the agenct Puccinia graminis f.sp. tritici." [CO:curators]
+synonym: "PgramInc" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_321:0500054
+name: wheat stem rust infection type trait
+def: "Stem rust (black rust) infection type exhibited by seedlings inoculated during greenhouse trials." [CO:curators]
+synonym: "PgramInf" EXACT []
+is_a: TO:0000439
+
+[Term]
+id: CO_321:0500055
+name: wheat sucrose src trait
+def: "Sucrose solvent retention capacity (SRC) is the best predictor of cookie quality." [CO:curators]
+synonym: "SSRC" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000162
+
+[Term]
+id: CO_321:0500056
+name: wheat vegetative protein content at maturity trait
+def: "Protein concentration of vegetative biomass harvested at physiological maturity" [CO:curators]
+synonym: "VegPrt" EXACT []
+is_a: CO_321:1000003
+is_a: TO:0000598
+
+[Term]
+id: CO_321:0500101
+name: wheat baking quality rating estimation method
+def: "The baking quality of a genotype relative to the standard variety used for that nursery. A= 1, B= 2, C= 3, D= 4, E= 5, F= 6." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500001 ! baking quality
+
+[Term]
+id: CO_321:0500102
+name: wheat baking quality score estimation method
+def: "Combined cookie diameter and sucrose SRC relative to a check variety." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500001 ! baking quality
+
+[Term]
+id: CO_321:0500103
+name: wheat bls estimation method
+def: "Common name: Bacterial leaf streak. Causal organism: Xanthomonas translucens pv. Undulosa. Severity rating: 0=no disease , 9=all leaf photosynthetic area lost." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0001019 ! bacterial leaf streak severity
+
+[Term]
+id: CO_321:0500104
+name: wheat bydinc estimation - average method
+def: "The mean BYDV incidence across multiple ratings, see BYDV incidence T1, BYDV incidence T2, and BYDV incidence T3." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000096 ! barley yellow dwarf incidence
+
+[Term]
+id: CO_321:0500108
+name: wheat bydresp estimation method
+def: "Barley yellow dwarf virus plant response. Resistant= 1, susceptible= 9." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500002 ! barley yellow dwarf plant response
+
+[Term]
+id: CO_321:0500116
+name: wheat canopytempant measurement method
+def: "Canopy temperature at anthesis (Feekes 10.5.1-10.5.3) measured using a hand-held infrared thermometer." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500004 ! canopy temperature
+
+[Term]
+id: CO_321:0500117
+name: wheat canopytempdepant computation method
+def: "Canopy temperature depression at anthesis (Feekes 10.5.1-10.5.3)" [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500005 ! canopy temperature depression
+
+[Term]
+id: CO_321:0500118
+name: wheat canopytempdepgf computation method
+def: "Canopy temperature depression at grain fill (Feekes 11.1-11.2)" [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500005 ! canopy temperature depression
+
+[Term]
+id: CO_321:0500119
+name: wheat canopytempgf measurement method
+def: "Canopy temperature at grain fill (Feekes 11.1-11.2 ) measured using a hand-held infrared thermometer." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500004 ! canopy temperature
+
+[Term]
+id: CO_321:0500120
+name: wheat cookie diameter measurement method
+def: "Standard method for cookie diameter measurement." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500006 ! cookie diameter
+
+[Term]
+id: CO_321:0500121
+name: wheat cookie diameter rating computation method
+def: "Standard deviations from the mean cookie diameter of check varieties. questionable= -1, above average= 1." [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500006 ! cookie diameter
+
+[Term]
+id: CO_321:0500122
+name: wheat egramresp estimation method
+def: "Powdery mildew plant response scoring." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500045 ! powdery midlew plant response
+
+[Term]
+id: CO_321:0500123
+name: wheat fertile spln counting method
+def: "Average count of fertile spikelets per spike." [CO:curators]
+is_a: CO_321:1000009
+relationship: method_of CO_321:0500007 ! fertile spikelet number
+
+[Term]
+id: CO_321:0500124
+name: wheat fgramsev greenhouse estimation method
+def: "Average percent of inoculated heads infected with Fusarium head blight (FHB) in greenhouse tests." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000926 ! fusarium graminearum severity
+
+[Term]
+id: CO_321:0500125
+name: wheat fhb disease index computation - average method
+def: "For trials where the FHB disease index was calculated at multiple time points, this variable holds the average FHB disease index across each time point." [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500019 ! fusarium head blight disease index
+
+[Term]
+id: CO_321:0500133
+name: wheat fhb infected florets measurement method
+def: "Percentage of florets infected with Fusarium head blight (FHB) following point inoculation." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500020 ! fusarium head blight diseased florets
+
+[Term]
+id: CO_321:0500134
+name: wheat fhb isk index computation method
+def: "Fusarium disease index that combines FHB incidence, FHB severity, and FHB grain (kernel) incidence (ISK)" [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500021 ! fusarium head blight isk index
+
+[Term]
+id: CO_321:0500135
+name: wheat fhb15-adon measurement method
+def: "Concentration of the mycotoxin deoxynivalenol (DON) in the acetylated form 15-ADON." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0000652 ! fusarium head blight don content
+
+[Term]
+id: CO_321:0500136
+name: wheat fhb3-adon measurement method
+def: "Concentration of the mycotoxin deoxynivalenol (DON) in the acetylated form 3-ADON." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0000652 ! fusarium head blight don content
+
+[Term]
+id: CO_321:0500143
+name: wheat flag leaf angle estimation - z50 method
+def: "Flag leaf angle is scored based on the visual estimate of flag leaf angle at Zadock scale 50 (inflorescence emergence). Leaf angle score: 1=100% flag leaves full upright. 9=100% flag leaves very lax" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500008 ! flag leaf angle
+
+[Term]
+id: CO_321:0500144
+name: wheat flag leaf glaucousness estimation method
+def: "Assessment of glaucousness in flag leaf i.e. visual manifestation of epicuticular wax, no glaucousness= 0, fully covered= 10." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500010 ! flag leaf glaucousness
+
+[Term]
+id: CO_321:0500145
+name: wheat fleafchl measurement method
+def: "Chlorophyll content of the flag leaf measured by a SPAD (Special Products Analysis Division of Minolta) meter. A SPAD unit is not directly related to optical transmission through a leaf." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500009 ! flag leaf chlorophyll content
+
+[Term]
+id: CO_321:0500148
+name: wheat fleafgreentime computation method
+def: "Number of days between heading and flag leaf senescence (= flag leaf senescence - days to heading)." [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500012 ! flag leaf stay-green time
+
+[Term]
+id: CO_321:0500149
+name: wheat fleafsen estimation method
+def: "Assessment of the extent of flag leaf senescence i.e. the progressive yellowing of the flag leaf." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000194 ! flag leaf senescence
+
+[Term]
+id: CO_321:0500152
+name: wheat fleafsentime computation method
+def: "Number of days required for 50% of the flag leaves to lose green color." [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500011 ! flag leaf senescence time
+
+[Term]
+id: CO_321:0500153
+name: wheat flryld estimation method
+def: "Standard deviations from the mean flour yield of check varieties. Questionable= -1, above average= 1." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000068 ! flour yield
+
+[Term]
+id: CO_321:0500154
+name: wheat forash nir measurement method
+def: "Measurement of Forage Ash by NIR" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500013 ! forage ash content
+
+[Term]
+id: CO_321:0500155
+name: wheat forfib nir measurement method
+def: "Measurement of Forage Fiber by NIR" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500014 ! forage fiber content
+
+[Term]
+id: CO_321:0500156
+name: wheat forgdm computation method
+def: "Computation of above ground biomass, on dry weight basis, of plant material at heading (DS55)." [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0001032 ! forage dry matter
+
+[Term]
+id: CO_321:0500157
+name: wheat formst nir measurement method
+def: "Measurement of Forage Moisture" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500015 ! forage moisture content
+
+[Term]
+id: CO_321:0500158
+name: wheat forndf nir measurement method
+def: "Measurement of Forage NDF by NIR" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500016 ! forage ndf content
+
+[Term]
+id: CO_321:0500159
+name: wheat forprt nir measurement method
+def: "Measurement of Forage Protein by NIR" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500017 ! forage protein content
+
+[Term]
+id: CO_321:0500160
+name: wheat forstr nir measurement method
+def: "Measurement of Forage Starch by NIR" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500018 ! forage starch content
+
+[Term]
+id: CO_321:0500161
+name: wheat garsenic measurement method
+def: "Standard method for grain arsenic content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500024 ! grain arsenic content
+
+[Term]
+id: CO_321:0500162
+name: wheat gcadmium measurement method
+def: "Standard method for grain cadmium content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500026 ! grain cadmium content
+
+[Term]
+id: CO_321:0500163
+name: wheat gcalcium measurement method
+def: "Standard method for grain calcium content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500027 ! grain calcium content
+
+[Term]
+id: CO_321:0500164
+name: wheat gcobalt measurement method
+def: "Standard method for grain cobalt content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500028 ! grain cobalt content
+
+[Term]
+id: CO_321:0500165
+name: wheat gcopper measurement method
+def: "Standard method for grain copper content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500029 ! grain copper content
+
+[Term]
+id: CO_321:0500166
+name: wheat glau estimation method
+def: "Estimation of overall plant glaucousness" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500022 ! glaucousness
+
+[Term]
+id: CO_321:0500167
+name: wheat glead measurement method
+def: "Standard method for grain lead content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500030 ! grain lead content
+
+[Term]
+id: CO_321:0500168
+name: wheat glithium measurement method
+def: "Standard method for grain lithium content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500031 ! grain lithium content
+
+[Term]
+id: CO_321:0500169
+name: wheat glume pubescence presence measurement method
+def: "Glume pubescence scored as absence/presence (0/1)" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500023 ! glume pubescence presence
+
+[Term]
+id: CO_321:0500170
+name: wheat glys protein measurement method
+def: "Lysine in the grain, expressed as percent of protein." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0000967 ! grain lysine content
+
+[Term]
+id: CO_321:0500171
+name: wheat gmagnesium measurement method
+def: "Standard method for grain magnesium content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500032 ! grain magnesium content
+
+[Term]
+id: CO_321:0500172
+name: wheat gmanganese measurement method
+def: "Standard method for grain manganese content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500033 ! grain manganese content
+
+[Term]
+id: CO_321:0500173
+name: wheat gmolybdenum measurement method
+def: "Standard method for grain molybdenum content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500034 ! grain molybdenum content
+
+[Term]
+id: CO_321:0500174
+name: wheat gn 10 spikes estimation method
+def: "Grain number counted from 10 spikes of the main tillers" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000017 ! grain number
+
+[Term]
+id: CO_321:0500175
+name: wheat gnickel measurement method
+def: "Standard method for grain nickel content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500035 ! grain nickel content
+
+[Term]
+id: CO_321:0500176
+name: wheat gpotassium measurement method
+def: "Standard method for grain potassium content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500036 ! grain potassium content
+
+[Term]
+id: CO_321:0500177
+name: wheat grain ash measurement method
+def: "Grain ash concentration determined by NIR infrared transmittance at 12% moisture" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500025 ! grain ash content
+
+[Term]
+id: CO_321:0500178
+name: wheat grain width measurement method
+def: "Grain width analysis using the single kernel characterization system 4100 (SKCS, Perten Instruments, Huddinge, Sweden)" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500038 ! grain width
+
+[Term]
+id: CO_321:0500179
+name: wheat gsulphur measurement method
+def: "Standard method for grain sulphur content." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500037 ! grain sulphur content
+
+[Term]
+id: CO_321:0500180
+name: wheat gw 10 spikes estimation method
+def: "Seed size estimated by weighing 1000 seeds from ten spikes on the main tillers." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000013 ! grain yield
+
+[Term]
+id: CO_321:0500181
+name: wheat gw 30 spikes estimation method
+def: "Weight of seeds from 30 wheat spikes." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0500182
+name: wheat gw estimation method
+def: "Grain yield (g dwt) from 1 m row cut at physiological maturity (DS87)." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0500183
+name: wheat gy 10 spikes estimation method
+def: "Grain yield expressed in kilograms per hectare, measured from ten spikes on the main tillers." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0500184
+name: wheat hesflydmg biotypeb estimation method
+def: "Plant response to hessian fly biotype B" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0500185
+name: wheat hesflydmg biotypec estimation method
+def: "Plant response to hessian fly biotype C" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0500186
+name: wheat hesflydmg biotyped estimation method
+def: "Plant response to hessian fly biotype D" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0500187
+name: wheat hesflydmg biotypel estimation method
+def: "Plant response to hessian fly biotype L" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0500188
+name: wheat hesflydmg biotypeo estimation method
+def: "Plant response to hessian fly biotype O" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0500189
+name: wheat infertspkn estimation method
+def: "Estimation of the number of infertile spikelets per spike." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0001484 ! infertile spike number
+
+[Term]
+id: CO_321:0500190
+name: wheat lactic acid src score estimation method
+def: "Measure of gluten strength. Typical values are below 85% for weak soft varieties, and above 105% or 110% for strong soft varieties." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500039 ! lactic acid src
+
+[Term]
+id: CO_321:0500191
+name: wheat lactic acid src rating estimation method
+def: "Lactic acid solvent retention capacity (SRC) rated as the standard deviations from the mean lactic acid SRC of check varieties. Questionable= -1, above average= 1." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500039 ! lactic acid src
+
+[Term]
+id: CO_321:0500192
+name: wheat lodg z50 estimation method
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000167 ! lodging incidence
+
+[Term]
+id: CO_321:0500193
+name: wheat lodg z55 estimation method
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000167 ! lodging incidence
+
+[Term]
+id: CO_321:0500194
+name: wheat mat ds87 canopy estimation method
+def: "Julian calendar date of canopy maturity i.e. when 50% of the green canopy completely loses color." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000022 ! maturity time
+
+[Term]
+id: CO_321:0500195
+name: wheat mat ds87 spike estimation method
+def: "Julian calendar date of spike maturity i.e. when 50% of the spikes completely lose color." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000022 ! maturity time
+
+[Term]
+id: CO_321:0500196
+name: wheat milling quality rating estimation method
+def: "Flour yield of a genotype relative to the standard variety used for that nursery. A= 1, B= 2, C= 3, D= 4, E= 5, F= 6." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500041 ! milling quality
+
+[Term]
+id: CO_321:0500197
+name: wheat milling quality score estimation method
+def: "Flour yield adjusted by comparison to a check variety." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500041 ! milling quality
+
+[Term]
+id: CO_321:0500198
+name: wheat mse rating estimation method
+def: "Softness equivalent is a flour particle size test that is correlated to break flour yields. Softness equivalent rating of a genotype relative to the standard variety used for that nursery. A= 1, B= 2, C= 3, D= 4, E= 5, F= 6." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500042 ! modified softness equivalent
+
+[Term]
+id: CO_321:0500199
+name: wheat mse score estimation method
+def: "Softness equivalent is a flour particle size test that is correlated to break flour yields" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500042 ! modified softness equivalent
+
+[Term]
+id: CO_321:0500200
+name: wheat mtw measurement method
+def: "The fixed Column weight of the VSK sample that fits in a 15.7 mL copper vessel measuring 20 mm in diameter and 50 mm in height" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500040 ! micro test weight
+
+[Term]
+id: CO_321:0500201
+name: wheat nivalenol measurement method
+def: "Measure of the level of the compound Nivalenol." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500043 ! nivalenol level
+
+[Term]
+id: CO_321:0500202
+name: wheat plntstnd estimation method
+def: "Estimation of the number of living plants." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000187 ! plant stand
+
+[Term]
+id: CO_321:0500203
+name: wheat ppo activity estimation method
+def: "Measures oxidation of an L-DOPA substrate to a red-colored product as an indirect measure of PPO activity" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500044 ! polyphenol oxidase activity
+
+[Term]
+id: CO_321:0500204
+name: wheat precoresp seedling ca1.2 estimation method
+def: "Leaf rust seedling response to CA1.2" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0500205
+name: wheat precoresp seedling estimation method
+def: "Leaf rust seedling response" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0500206
+name: wheat precoresp seedling field mix estimation method
+def: "Leaf rust seedling response to Field Mix" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0500207
+name: wheat precoresp seedling race 1 estimation method
+def: "Leaf rust seedling response to Race 1" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0500208
+name: wheat pseudo-black presence measurement method
+def: "Scoring of pseudo-black chaff as presence / absence (1/0)" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500046 ! pseudo-black glume color
+
+[Term]
+id: CO_321:0500209
+name: wheat rust incidence estimation method
+def: "Estimation of stem rust incidence" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500053 ! stem rust incidence
+
+[Term]
+id: CO_321:0500210
+name: wheat rust infection response estimation - final method
+def: "A qualitative anaylsis of the type of stem rust (Puccinia graminis f. sp. Tritici) symptoms that are exhibited. Infection responses are limited to: Resistant (R): small uredinia surrounded by chlorosis or necrosis , Moderately resistant (MR): medium sized uredinia surrounded by chlorosis or necrosis , Moderately susceptible (MS): medium-large compatible uredinia without chlorosis and necrosis , Susceptible (S): large, compatible uredinia without chlorosis and necrosis. The following numerical scale has been used to quantify conventional notations of infection response: R= 0.2, MR= 0.4, MS= 0.8, S= 1.0 (Yu et al. 2011). Stem rust infection response is typically recorded in conjunction with stem rust severity." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000177 ! stem rust plant response
+
+[Term]
+id: CO_321:0500212
+name: wheat rust infection type bccbc estimation method
+def: "A qualitative analysis of the type of disease symptoms exhibited by seedlings inoculated with stem rust (Puccinia graminis f. sp. tritici) race BCCBC during greenhouse trials. The original ratings, made using the scale from Stakman et al. (1962), were converted to a 0-9 linear disease scale for analysis: 0, 1-, 1, 1+, 2-, 2 2+, 3-, 3, 3+ were coded as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, respectively (Zhang et al, 2014)." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0500213
+name: wheat rust infection type field bulk estimation method
+def: "A qualitative analysis of the type of disease symptoms exhibited by seedlings inoculated with stem rust (Puccinia graminis f. sp. tritici) a bulk of stem rust races from the field during greenhouse trials. The original ratings, made using the scale from Stakman et al. (1962), were converted to a 0-9 linear disease scale for analysis: 0, 1-, 1, 1+, 2-, 2 2+, 3-, 3, 3+ were coded as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, respectively (Zhang et al, 2014)." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0500214
+name: wheat rust infection type jrcqc estimation method
+def: "A qualitative analysis of the type of disease symptoms exhibited by seedlings inoculated with stem rust (Puccinia graminis f. sp. tritici) race JRCQC during greenhouse trials. The original ratings, made using the scale from Stakman et al. (1962), were converted to a 0-9 linear disease scale for analysis: 0, 1-, 1, 1+, 2-, 2 2+, 3-, 3, 3+ were coded as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, respectively (Zhang et al, 2014)." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0500215
+name: wheat rust infection type trttf estimation method
+def: "A qualitative analysis of the type of disease symptoms exhibited by seedlings inoculated with stem rust (Puccinia graminis f. sp. tritici) race TRTTF during greenhouse trials. The original ratings, made using the scale from Stakman et al. (1962), were converted to a 0-9 linear disease scale for analysis: 0, 1-, 1, 1+, 2-, 2 2+, 3-, 3, 3+ were coded as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, respectively (Zhang et al, 2014)." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0500216
+name: wheat rust infection type ttksk estimation method
+def: "A qualitative analysis of the type of disease symptoms exhibited by seedlings inoculated with stem rust (Puccinia graminis f. sp. tritici) race TTKSK during greenhouse trials. The original ratings, made using the scale from Stakman et al. (1962), were converted to a 0-9 linear disease scale for analysis: 0, 1-, 1, 1+, 2-, 2 2+, 3-, 3, 3+ were coded as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, respectively (Zhang et al, 2014)." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0500217
+name: wheat rust infection type ttttf estimation method
+def: "A qualitative analysis of the type of disease symptoms exhibited by seedlings inoculated with stem rust (Puccinia graminis f. sp. tritici) race TTTTF during greenhouse trials. The original ratings, made using the scale from Stakman et al. (1962), were converted to a 0-9 linear disease scale for analysis: 0, 1-, 1, 1+, 2-, 2 2+, 3-, 3, 3+ were coded as 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, respectively (Zhang et al, 2014)." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0500223
+name: wheat sbmv infection coefficient method
+def: "Calculation of soil borne mosaic coefficient of infection" [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0500049 ! soil borne mosaic infection coefficient
+
+[Term]
+id: CO_321:0500224
+name: wheat sbmv response estimation method
+def: "Estimation of plant response to wheat soil-borne mosaic virus" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500050 ! soil borne mosaic plant response
+
+[Term]
+id: CO_321:0500225
+name: wheat se rating estimation method
+def: "Rated as the standard deviations from the mean softness equivalent of check varieties. Questionable= -1, above average= 1." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500048 ! softness equivalent
+
+[Term]
+id: CO_321:0500226
+name: wheat se score estimation method
+def: "Score calculated as (grain weight - bran weight) - mids / (grain weight - bran weight). Smaller amounts of mids means smaller particle size, greater break flour, greater SE. Not adjusted to standard moisture." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500048 ! softness equivalent
+
+[Term]
+id: CO_321:0500227
+name: wheat single kernel characterization system computation method
+def: "Grain hardness analysis using the single kernel characterization system 4100 (SKCS, Perten Instruments, Huddinge, Sweden)." [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0000072 ! grain hardness
+
+[Term]
+id: CO_321:0500228
+name: wheat skcs computation method
+def: "Grain weight using the single kernel characterization system 4100 (SKCS, Perten Instruments, Huddinge, Sweden)." [CO:curators]
+is_a: CO_321:1000010
+relationship: method_of CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0500229
+name: wheat snodoresp estimation method
+def: "Rating of Septoria nodorum blotch plant response." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500047 ! septoria nodorum blotch plant response
+
+[Term]
+id: CO_321:0500230
+name: wheat snodosev spike estimation method
+def: "Rating of Septoria nodorum blotch severity of symptoms on spikes" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0000717 ! septoria nodorum blotch severity
+
+[Term]
+id: CO_321:0500231
+name: wheat spkcol estimation method
+def: "Visual rating of spike color during grain filling" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500051 ! spike color
+
+[Term]
+id: CO_321:0500232
+name: wheat spkdw measurement method
+def: "Spike weight (grain + glumes/rachis/awns) in g dwt m-1 row from plants cut at physiological maturity (DS87)." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0001523 ! spike dry weight
+
+[Term]
+id: CO_321:0500233
+name: wheat spkglau estimation method
+def: "Estimation of spike glaucousness" [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500052 ! spike glaucousness
+
+[Term]
+id: CO_321:0500234
+name: wheat spkglau presence measurement method
+def: "Spike glaucousness scored as absence/presence (0/1)" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500052 ! spike glaucousness
+
+[Term]
+id: CO_321:0500235
+name: wheat sucrose src rating estimation method
+def: "Rated as the standard deviations from the mean sucrose SRC of check varieties. Questionable= -1, above average= 1." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500055 ! sucrose src
+
+[Term]
+id: CO_321:0500236
+name: wheat sucrose src score estimation method
+def: "Sugar snap cookie diameters decrease by 0.07 cm for each percentage point increase in sucrose SRC score." [CO:curators]
+is_a: CO_321:1000011
+relationship: method_of CO_321:0500055 ! sucrose src
+
+[Term]
+id: CO_321:0500237
+name: wheat vegetative protein measurement method
+def: "Protein concentration of vegetative biomass harvested at physiological maturity" [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500056 ! vegetative protein content at maturity
+
+[Term]
+id: CO_321:0500238
+name: wheat canopy senescence measurement - average method
+def: "Percentage (%) of leaf area (canopy) that has lost green color during the process of physiological maturity - average of observations." [CO:curators]
+is_a: CO_321:1000008
+relationship: method_of CO_321:0500003 ! canopy senescence
+
+[Term]
+id: CO_321:0500501
+name: wheat -1 to 1 standard deviations scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0500121 ! cookie diameter rating computation
+relationship: scale_of CO_321:0500153 ! flryld estimation
+relationship: scale_of CO_321:0500191 ! lactic acid src rating estimation
+relationship: scale_of CO_321:0500225 ! se rating estimation
+relationship: scale_of CO_321:0500235 ! sucrose src rating estimation
+
+[Term]
+id: CO_321:0500502
+name: wheat 0-1 absence/presence scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500169 ! glume pubescence presence measurement
+relationship: scale_of CO_321:0500208 ! pseudo-black presence measurement
+relationship: scale_of CO_321:0500234 ! spkglau presence measurement
+
+[Term]
+id: CO_321:0500503
+name: wheat 0-1 absorbance units scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0500203 ! ppo activity estimation
+
+[Term]
+id: CO_321:0500504
+name: wheat 0-1 rating scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0500210 ! rust infection response estimation - final
+
+[Term]
+id: CO_321:0500505
+name: wheat 0-1 response scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0000706 ! precoresp estimation
+
+[Term]
+id: CO_321:0500506
+name: wheat 0-10 glaucousness rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500144 ! flag leaf glaucousness estimation
+
+[Term]
+id: CO_321:0500507
+name: wheat 0-10 rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500189 ! infertspkn estimation
+
+[Term]
+id: CO_321:0500508
+name: wheat 0-10 response 
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500122 ! egramresp estimation
+
+[Term]
+id: CO_321:0500509
+name: wheat 0-3 injury 
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0000341 ! frostdmg estimation
+
+[Term]
+id: CO_321:0500510
+name: wheat 0-4 disease rating with qualifiers scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500205 ! precoresp seedling estimation
+
+[Term]
+id: CO_321:0500511
+name: wheat 0-4 glaucousness rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0000274 ! pedglau estimation
+
+[Term]
+id: CO_321:0500512
+name: wheat 0-5 rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500223 ! sbmv infection coefficient
+
+[Term]
+id: CO_321:0500513
+name: wheat 0-9 response 
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500224 ! sbmv response estimation
+
+[Term]
+id: CO_321:0500514
+name: wheat 0-9 stakman rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500212 ! rust infection type bccbc estimation
+relationship: scale_of CO_321:0500213 ! rust infection type field bulk estimation
+relationship: scale_of CO_321:0500214 ! rust infection type jrcqc estimation
+relationship: scale_of CO_321:0500215 ! rust infection type trttf estimation
+relationship: scale_of CO_321:0500216 ! rust infection type ttksk estimation
+relationship: scale_of CO_321:0500217 ! rust infection type ttttf estimation
+
+[Term]
+id: CO_321:0500515
+name: wheat 1-4 growth habit rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0000238 ! grwhabit estimation
+
+[Term]
+id: CO_321:0500516
+name: wheat 1-5 color rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500231 ! spkcol estimation
+
+[Term]
+id: CO_321:0500517
+name: wheat 1-6 grade rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500101 ! baking quality rating estimation
+relationship: scale_of CO_321:0500196 ! milling quality rating estimation
+relationship: scale_of CO_321:0500198 ! mse rating estimation
+
+[Term]
+id: CO_321:0500518
+name: wheat 1-9 glaucousness rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500166 ! glau estimation
+relationship: scale_of CO_321:0500233 ! spkglau estimation
+
+[Term]
+id: CO_321:0500519
+name: wheat 1-9 leaf angle rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0500143 ! flag leaf angle estimation - z50
+
+[Term]
+id: CO_321:0500520
+name: wheat 1-9 response 
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0000309 ! hesflydmg estimation
+relationship: scale_of CO_321:0000703 ! fgramresp estimation
+relationship: scale_of CO_321:0500108 ! bydresp estimation
+
+[Term]
+id: CO_321:0500521
+name: wheat 1-9 thickness rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0000284 ! stmdia measurement
+
+[Term]
+id: CO_321:0500522
+name: wheat 5-25 5 stem solidness rating scale
+is_a: CO_321:1000012
+relationship: scale_of CO_321:0000283 ! stmsol estimation
+
+[Term]
+id: CO_321:0500523
+name: wheat degrees c scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0500116 ! canopytempant measurement
+relationship: scale_of CO_321:0500117 ! canopytempdepant computation
+relationship: scale_of CO_321:0500118 ! canopytempdepgf computation
+relationship: scale_of CO_321:0500119 ! canopytempgf measurement
+
+[Term]
+id: CO_321:0500524
+name: wheat grain scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0500174 ! gn 10 spikes estimation
+
+[Term]
+id: CO_321:0500525
+name: wheat mg scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0500228 ! skcs computation
+
+[Term]
+id: CO_321:0500526
+name: wheat skcs index scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0500227 ! single kernel characterization system computation
+
+[Term]
+id: CO_321:0500527
+name: wheat spad scale
+is_a: CO_321:1000017
+relationship: scale_of CO_321:0000249 ! chl measurement
+relationship: scale_of CO_321:0500145 ! fleafchl measurement
+
+[Term]
+id: CO_321:0501001
+name: wheat ant_e_jd variable
+synonym: "ANT_jd" EXACT []
+relationship: variable_of CO_321:0000121 ! anthesis time
+relationship: variable_of CO_321:0000832 ! ant ds65 date estimation
+relationship: variable_of CO_321:0000855 ! Julian date (JD)
+is_a: CO_321:0000121 ! anthesis time
+
+[Term]
+id: CO_321:0501002
+name: wheat ant_e_jd variable
+synonym: "ANT_jd" EXACT []
+relationship: variable_of CO_321:0000121 ! anthesis time
+relationship: variable_of CO_321:0000832 ! ant ds65 date estimation
+relationship: variable_of CO_321:0000855 ! Julian date (JD)
+is_a: CO_321:0000121 ! anthesis time
+
+[Term]
+id: CO_321:0501003
+name: wheat blkglmcol_m_0to1 variable
+synonym: "BLKGLMCOL_0_1" EXACT []
+relationship: variable_of CO_321:0500046 ! pseudo-black glume color
+relationship: variable_of CO_321:0500208 ! pseudo-black presence measurement
+relationship: variable_of CO_321:0500502 ! 0-1 absence/presence
+is_a: CO_321:0500046 ! pseudo-black glume color
+
+[Term]
+id: CO_321:0501004
+name: wheat blssev_e_0to9 variable
+synonym: "BLS_0_9" EXACT []
+relationship: variable_of CO_321:0001019 ! bacterial leaf streak severity
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500103 ! bls estimation
+is_a: CO_321:0001019 ! bacterial leaf streak severity
+
+[Term]
+id: CO_321:0501005
+name: wheat bq_rating_1to6 variable
+synonym: "BQ_RATING" EXACT []
+relationship: variable_of CO_321:0500001 ! baking quality
+relationship: variable_of CO_321:0500101 ! baking quality rating estimation
+relationship: variable_of CO_321:0500517 ! 1-6 grade rating
+is_a: CO_321:0500001 ! baking quality
+
+[Term]
+id: CO_321:0501006
+name: wheat bq_score_pct variable
+synonym: "BQ_SCORE" EXACT []
+relationship: variable_of CO_321:0500001 ! baking quality
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500102 ! baking quality score estimation
+is_a: CO_321:0500001 ! baking quality
+
+[Term]
+id: CO_321:0501007
+name: wheat bydinc_e_pct variable
+synonym: "BYD_pct" EXACT []
+relationship: variable_of CO_321:0000096 ! barley yellow dwarf incidence
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500104 ! bydinc estimation - average
+is_a: CO_321:0000096 ! barley yellow dwarf incidence
+
+[Term]
+id: CO_321:0501011
+name: wheat bydresp_e_1to9 variable
+synonym: "BYDRESP_1_9__RESP" EXACT []
+relationship: variable_of CO_321:0500002 ! barley yellow dwarf plant response
+relationship: variable_of CO_321:0500108 ! bydresp estimation
+relationship: variable_of CO_321:0500520 ! 1-9 response scale
+is_a: CO_321:0500002 ! barley yellow dwarf plant response
+
+[Term]
+id: CO_321:0501019
+name: wheat canopytemp_ant_m_c variable
+synonym: "CANOPYTEMP_ANT_c" EXACT []
+relationship: variable_of CO_321:0500004 ! canopy temperature
+relationship: variable_of CO_321:0500116 ! canopytempant measurement
+relationship: variable_of CO_321:0500523 ! degrees C
+is_a: CO_321:0500004 ! canopy temperature
+
+[Term]
+id: CO_321:0501020
+name: wheat canopytemp_gf_m_c variable
+synonym: "CANOPYTEMP_GF_c" EXACT []
+relationship: variable_of CO_321:0500004 ! canopy temperature
+relationship: variable_of CO_321:0500119 ! canopytempgf measurement
+relationship: variable_of CO_321:0500523 ! degrees C
+is_a: CO_321:0500004 ! canopy temperature
+
+[Term]
+id: CO_321:0501021
+name: wheat canopytempdep_ant_calc_c variable
+synonym: "CANOPYTEMPDEP_ANT_c, CTD_ANT_c" EXACT []
+relationship: variable_of CO_321:0500005 ! canopy temperature depression
+relationship: variable_of CO_321:0500117 ! canopytempdepant computation
+relationship: variable_of CO_321:0500523 ! degrees C
+is_a: CO_321:0500005 ! canopy temperature depression
+
+[Term]
+id: CO_321:0501022
+name: wheat canopytempdep_gf_calc_c variable
+synonym: "CANOPYTEMPDEP_GF_c, CTD_GF_c" EXACT []
+relationship: variable_of CO_321:0500005 ! canopy temperature depression
+relationship: variable_of CO_321:0500118 ! canopytempdepgf computation
+relationship: variable_of CO_321:0500523 ! degrees C
+is_a: CO_321:0500005 ! canopy temperature depression
+
+[Term]
+id: CO_321:0501023
+name: wheat cd_m_cm variable
+synonym: "CD_cm" EXACT []
+relationship: variable_of CO_321:0500006 ! cookie diameter
+relationship: variable_of CO_321:0000411 ! cm
+relationship: variable_of CO_321:0500120 ! cookie diameter measurement
+is_a: CO_321:0500006 ! cookie diameter
+
+[Term]
+id: CO_321:0501024
+name: wheat cd_rating_sd variable
+synonym: "CD_RATING_sd" EXACT []
+relationship: variable_of CO_321:0500006 ! cookie diameter
+relationship: variable_of CO_321:0500121 ! cookie diameter rating computation
+relationship: variable_of CO_321:0500501 ! -1 to 1 standard deviations
+is_a: CO_321:0500006 ! cookie diameter
+
+[Term]
+id: CO_321:0501025
+name: wheat chl_m_spad variable
+synonym: "CHL_spad" EXACT []
+relationship: variable_of CO_321:0000028 ! leaf chlorophyll content
+relationship: variable_of CO_321:0000249 ! chl measurement
+relationship: variable_of CO_321:0500527 ! spad
+is_a: CO_321:0000028 ! leaf chlorophyll content
+
+[Term]
+id: CO_321:0501026
+name: wheat egramresp_e_0to10 variable
+synonym: "EGRAM_0_10__RESP" EXACT []
+relationship: variable_of CO_321:0500045 ! powdery midlew plant response
+relationship: variable_of CO_321:0500122 ! egramresp estimation
+relationship: variable_of CO_321:0500508 ! 0-10 response scale
+is_a: CO_321:0500045 ! powdery midlew plant response
+
+[Term]
+id: CO_321:0501027
+name: wheat fertspkn_ct_splspk variable
+synonym: "FERTSPKN_SPLSPK" EXACT []
+relationship: variable_of CO_321:0500007 ! fertile spikelet number
+relationship: variable_of CO_321:0000440 ! spikelet/spike
+relationship: variable_of CO_321:0500123 ! fertile spln counting
+is_a: CO_321:0500007 ! fertile spikelet number
+
+[Term]
+id: CO_321:0501028
+name: wheat fgramresp_e_1to9 variable
+synonym: "FRAM_1_9__RESP" EXACT []
+relationship: variable_of CO_321:0000925 ! fusarium graminearum plant response
+relationship: variable_of CO_321:0000703 ! fgramresp estimation
+relationship: variable_of CO_321:0500520 ! 1-9 response scale
+is_a: CO_321:0000925 ! fusarium graminearum plant response
+
+[Term]
+id: CO_321:0501029
+name: wheat fgramsev_gh_e_pct variable
+synonym: "FGRAM_GH_pct" EXACT []
+relationship: variable_of CO_321:0000926 ! fusarium graminearum severity
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500124 ! fgramsev greenhouse estimation
+is_a: CO_321:0000926 ! fusarium graminearum severity
+
+[Term]
+id: CO_321:0501030
+name: wheat fhbdi_calc_pct variable
+synonym: "FHBDI_pct" EXACT []
+relationship: variable_of CO_321:0500019 ! fusarium head blight disease index
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500125 ! fhb disease index computation - average
+is_a: CO_321:0500019 ! fusarium head blight disease index
+
+[Term]
+id: CO_321:0501038
+name: wheat fhbdon_15adon_m_ppm variable
+synonym: "FHB_15ADON_ppm" EXACT []
+relationship: variable_of CO_321:0000652 ! fusarium head blight don content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500135 ! fhb15-adon measurement
+is_a: CO_321:0000652 ! fusarium head blight don content
+
+[Term]
+id: CO_321:0501039
+name: wheat fhbdon_3adon_m_ppm variable
+synonym: "FHB_3ADON_ppm" EXACT []
+relationship: variable_of CO_321:0000652 ! fusarium head blight don content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500136 ! fhb3-adon measurement
+is_a: CO_321:0000652 ! fusarium head blight don content
+
+[Term]
+id: CO_321:0501040
+name: wheat fhbflorets_m_pct variable
+synonym: "FHBFLORETS_pct" EXACT []
+relationship: variable_of CO_321:0500020 ! fusarium head blight diseased florets
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500133 ! fhb infected florets measurement
+is_a: CO_321:0500020 ! fusarium head blight diseased florets
+
+[Term]
+id: CO_321:0501041
+name: wheat fhbisk_calc_pct variable
+synonym: "FHBISK_pct" EXACT []
+relationship: variable_of CO_321:0500021 ! fusarium head blight isk index
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500134 ! fhb isk index computation
+is_a: CO_321:0500021 ! fusarium head blight isk index
+
+[Term]
+id: CO_321:0501042
+name: wheat fleafang_e_1to9 variable
+synonym: "FLEAFANG_1_9" EXACT []
+relationship: variable_of CO_321:0500008 ! flag leaf angle
+relationship: variable_of CO_321:0500143 ! flag leaf angle estimation - z50
+relationship: variable_of CO_321:0500519 ! 1-9 leaf angle rating
+is_a: CO_321:0500008 ! flag leaf angle
+
+[Term]
+id: CO_321:0501044
+name: wheat fleafchl_m_spad variable
+synonym: "FLEAFCHL_spad" EXACT []
+relationship: variable_of CO_321:0500009 ! flag leaf chlorophyll content
+relationship: variable_of CO_321:0500145 ! fleafchl measurement
+relationship: variable_of CO_321:0500527 ! spad
+is_a: CO_321:0500009 ! flag leaf chlorophyll content
+
+[Term]
+id: CO_321:0501047
+name: wheat fleafglau_e_0to10 variable
+synonym: "FLEAFGLAU_0_10" EXACT []
+relationship: variable_of CO_321:0500010 ! flag leaf glaucousness
+relationship: variable_of CO_321:0500144 ! flag leaf glaucousness estimation
+relationship: variable_of CO_321:0500506 ! 0-10 glaucousness rating
+is_a: CO_321:0500010 ! flag leaf glaucousness
+
+[Term]
+id: CO_321:0501048
+name: wheat fleafgreentime_calc_day variable
+synonym: "FLEAFGREENTIME_days, FLEAFGREENDAYS" EXACT []
+relationship: variable_of CO_321:0500012 ! flag leaf stay-green time
+relationship: variable_of CO_321:0000434 ! day
+relationship: variable_of CO_321:0500148 ! fleafgreentime computation
+is_a: CO_321:0500012 ! flag leaf stay-green time
+
+[Term]
+id: CO_321:0501049
+name: wheat fleaflwid_m_cm variable
+synonym: "FLAGLEAFWID_cm" EXACT []
+relationship: variable_of CO_321:0001525 ! flag leaf lamina width
+relationship: variable_of CO_321:0000411 ! cm
+relationship: variable_of CO_321:0001581 ! fleaflwid measurement
+is_a: CO_321:0001525 ! flag leaf lamina width
+
+[Term]
+id: CO_321:0501050
+name: wheat fleafsen_m_0to9 variable
+synonym: "FLEAFSEN_0_9" EXACT []
+relationship: variable_of CO_321:0000194 ! flag leaf senescence
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500149 ! fleafsen estimation
+is_a: CO_321:0000194 ! flag leaf senescence
+
+[Term]
+id: CO_321:0501053
+name: wheat fleafsentime_calc_day variable
+synonym: "FLEAFSENTIME_days, FLEAFSENDAYS" EXACT []
+relationship: variable_of CO_321:0500011 ! flag leaf senescence time
+relationship: variable_of CO_321:0000434 ! day
+relationship: variable_of CO_321:0500152 ! fleafsentime computation
+is_a: CO_321:0500011 ! flag leaf senescence time
+
+[Term]
+id: CO_321:0501054
+name: wheat flryld_e_sd variable
+synonym: "FLRYLD_sd" EXACT []
+relationship: variable_of CO_321:0000068 ! flour yield
+relationship: variable_of CO_321:0500153 ! flryld estimation
+relationship: variable_of CO_321:0500501 ! -1 to 1 standard deviations
+is_a: CO_321:0000068 ! flour yield
+
+[Term]
+id: CO_321:0501055
+name: wheat forash_m_pct variable
+synonym: "FORASH_pct" EXACT []
+relationship: variable_of CO_321:0500013 ! forage ash content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500154 ! forash nir measurement
+is_a: CO_321:0500013 ! forage ash content
+
+[Term]
+id: CO_321:0501056
+name: wheat forfib_m_pct variable
+synonym: "FORFIB_pct" EXACT []
+relationship: variable_of CO_321:0500014 ! forage fiber content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500155 ! forfib nir measurement
+is_a: CO_321:0500014 ! forage fiber content
+
+[Term]
+id: CO_321:0501057
+name: wheat forgdm_calc_kgha variable
+synonym: "FORGDM_kg_ha" EXACT []
+relationship: variable_of CO_321:0001032 ! forage dry matter
+relationship: variable_of CO_321:0000804 ! kg/ha
+relationship: variable_of CO_321:0500156 ! forgdm computation
+is_a: CO_321:0001032 ! forage dry matter
+
+[Term]
+id: CO_321:0501058
+name: wheat formst_m_pct variable
+synonym: "FORMST_pct" EXACT []
+relationship: variable_of CO_321:0500015 ! forage moisture content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500157 ! formst nir measurement
+is_a: CO_321:0500015 ! forage moisture content
+
+[Term]
+id: CO_321:0501059
+name: wheat forndf_m_pct variable
+synonym: "FORNDF_pct" EXACT []
+relationship: variable_of CO_321:0500016 ! forage ndf content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500158 ! forndf nir measurement
+is_a: CO_321:0500016 ! forage ndf content
+
+[Term]
+id: CO_321:0501060
+name: wheat forprt_m_pct variable
+synonym: "FORPRT_pct" EXACT []
+relationship: variable_of CO_321:0500017 ! forage protein content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500159 ! forprt nir measurement
+is_a: CO_321:0500017 ! forage protein content
+
+[Term]
+id: CO_321:0501061
+name: wheat forstr_m_pct variable
+synonym: "FORSTR_pct" EXACT []
+relationship: variable_of CO_321:0500018 ! forage starch content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500160 ! forstr nir measurement
+is_a: CO_321:0500018 ! forage starch content
+
+[Term]
+id: CO_321:0501062
+name: wheat frostdmg_e_0to3 variable
+synonym: "FROSTDMG_0_3" EXACT []
+relationship: variable_of CO_321:0000127 ! frost damage
+relationship: variable_of CO_321:0000341 ! frostdmg estimation
+relationship: variable_of CO_321:0500509 ! 0-3 injury scale
+is_a: CO_321:0000127 ! frost damage
+
+[Term]
+id: CO_321:0501063
+name: wheat garse_m_ppm variable
+synonym: "GRNARSE_ppm" EXACT []
+relationship: variable_of CO_321:0500024 ! grain arsenic content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500161 ! garsenic measurement
+is_a: CO_321:0500024 ! grain arsenic content
+
+[Term]
+id: CO_321:0501064
+name: wheat gcadm_m_ppm variable
+synonym: "GRNCADM_ppm" EXACT []
+relationship: variable_of CO_321:0500026 ! grain cadmium content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500162 ! gcadmium measurement
+is_a: CO_321:0500026 ! grain cadmium content
+
+[Term]
+id: CO_321:0501065
+name: wheat gcalc_m_ppm variable
+synonym: "GRNCALC_ppm" EXACT []
+relationship: variable_of CO_321:0500027 ! grain calcium content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500163 ! gcalcium measurement
+is_a: CO_321:0500027 ! grain calcium content
+
+[Term]
+id: CO_321:0501066
+name: wheat gcoba_m_ppm variable
+synonym: "GRNCOBA_ppm" EXACT []
+relationship: variable_of CO_321:0500028 ! grain cobalt content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500164 ! gcobalt measurement
+is_a: CO_321:0500028 ! grain cobalt content
+
+[Term]
+id: CO_321:0501067
+name: wheat gcopp_m_ppm variable
+synonym: "GRNCOPP_ppm" EXACT []
+relationship: variable_of CO_321:0500029 ! grain copper content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500165 ! gcopper measurement
+is_a: CO_321:0500029 ! grain copper content
+
+[Term]
+id: CO_321:0501068
+name: wheat ghrd_calc_skcs variable
+synonym: "GHRD_skcs" EXACT []
+relationship: variable_of CO_321:0000072 ! grain hardness
+relationship: variable_of CO_321:0500227 ! single kernel characterization system computation
+relationship: variable_of CO_321:0500526 ! skcs index
+is_a: CO_321:0000072 ! grain hardness
+
+[Term]
+id: CO_321:0501069
+name: wheat glau_e_1to9 variable
+synonym: "GLAU_1_9" EXACT []
+relationship: variable_of CO_321:0500022 ! glaucousness
+relationship: variable_of CO_321:0500166 ! glau estimation
+relationship: variable_of CO_321:0500518 ! 1-9 glaucousness rating
+is_a: CO_321:0500022 ! glaucousness
+
+[Term]
+id: CO_321:0501070
+name: wheat glead_m_ppm variable
+synonym: "GRNLEAD_ppm" EXACT []
+relationship: variable_of CO_321:0500030 ! grain lead content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500167 ! glead measurement
+is_a: CO_321:0500030 ! grain lead content
+
+[Term]
+id: CO_321:0501071
+name: wheat glith_m_ppm variable
+synonym: "GRNLITH_ppm" EXACT []
+relationship: variable_of CO_321:0500031 ! grain lithium content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500168 ! glithium measurement
+is_a: CO_321:0500031 ! grain lithium content
+
+[Term]
+id: CO_321:0501072
+name: wheat glmpub_m_0to1 variable
+synonym: "GLMPUB_0_1" EXACT []
+relationship: variable_of CO_321:0500023 ! glume pubescence presence
+relationship: variable_of CO_321:0500169 ! glume pubescence presence measurement
+relationship: variable_of CO_321:0500502 ! 0-1 absence/presence
+is_a: CO_321:0500023 ! glume pubescence presence
+
+[Term]
+id: CO_321:0501073
+name: wheat glys_m_pct variable
+synonym: "GLYS_pct" EXACT []
+relationship: variable_of CO_321:0000967 ! grain lysine content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500170 ! glys protein measurement
+is_a: CO_321:0000967 ! grain lysine content
+
+[Term]
+id: CO_321:0501074
+name: wheat gmagn_m_ppm variable
+synonym: "GRNMAGN_ppm" EXACT []
+relationship: variable_of CO_321:0500032 ! grain magnesium content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500171 ! gmagnesium measurement
+is_a: CO_321:0500032 ! grain magnesium content
+
+[Term]
+id: CO_321:0501075
+name: wheat gmang_m_ppm variable
+synonym: "GRNMANG_ppm" EXACT []
+relationship: variable_of CO_321:0500033 ! grain manganese content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500172 ! gmanganese measurement
+is_a: CO_321:0500033 ! grain manganese content
+
+[Term]
+id: CO_321:0501076
+name: wheat gmoly_m_ppm variable
+synonym: "GRNMOLY_ppm" EXACT []
+relationship: variable_of CO_321:0500034 ! grain molybdenum content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500173 ! gmolybdenum measurement
+is_a: CO_321:0500034 ! grain molybdenum content
+
+[Term]
+id: CO_321:0501077
+name: wheat gn_10spk_m_grain variable
+synonym: "GN_10Spk_grain" EXACT []
+relationship: variable_of CO_321:0000017 ! grain number
+relationship: variable_of CO_321:0500174 ! gn 10 spikes estimation
+relationship: variable_of CO_321:0500524 ! grain
+is_a: CO_321:0000017 ! grain number
+
+[Term]
+id: CO_321:0501078
+name: wheat gnick_m_ppm variable
+synonym: "GRNNICK_ppm" EXACT []
+relationship: variable_of CO_321:0500035 ! grain nickel content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500175 ! gnickel measurement
+is_a: CO_321:0500035 ! grain nickel content
+
+[Term]
+id: CO_321:0501079
+name: wheat gpota_m_ppm variable
+synonym: "GRNPOTA_ppm" EXACT []
+relationship: variable_of CO_321:0500036 ! grain potassium content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500176 ! gpotassium measurement
+is_a: CO_321:0500036 ! grain potassium content
+
+[Term]
+id: CO_321:0501080
+name: wheat grnash_m_pct variable
+synonym: "GRNASH_pct" EXACT []
+relationship: variable_of CO_321:0500025 ! grain ash content
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500177 ! grain ash measurement
+is_a: CO_321:0500025 ! grain ash content
+
+[Term]
+id: CO_321:0501081
+name: wheat grwhabit_e_1to4 variable
+synonym: "GRWHABIT_1_4" EXACT []
+relationship: variable_of CO_321:0000015 ! plant growth habit
+relationship: variable_of CO_321:0000238 ! grwhabit estimation
+relationship: variable_of CO_321:0500515 ! 1-4 growth habit rating
+is_a: CO_321:0000015 ! plant growth habit
+
+[Term]
+id: CO_321:0501082
+name: wheat gsulp_m_ppm variable
+synonym: "GRNSULP_ppm" EXACT []
+relationship: variable_of CO_321:0500037 ! grain sulphur content
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500179 ! gsulphur measurement
+is_a: CO_321:0500037 ! grain sulphur content
+
+[Term]
+id: CO_321:0501083
+name: wheat gw_30spk_e_g variable
+synonym: "GW_30_g" EXACT []
+relationship: variable_of CO_321:0000025 ! grain weight
+relationship: variable_of CO_321:0001593 ! g
+relationship: variable_of CO_321:0500182 ! gw estimation
+is_a: CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0501084
+name: wheat gw_calc_mg variable
+synonym: "GW_mg" EXACT []
+relationship: variable_of CO_321:0000025 ! grain weight
+relationship: variable_of CO_321:0500228 ! skcs computation
+relationship: variable_of CO_321:0500525 ! mg
+is_a: CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0501085
+name: wheat gw_e_g variable
+synonym: "GW_g" EXACT []
+relationship: variable_of CO_321:0000025 ! grain weight
+relationship: variable_of CO_321:0000804 ! kg/ha
+relationship: variable_of CO_321:0500183 ! gy 10 spikes estimation
+is_a: CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0501086
+name: wheat gw_e_g1000grn variable
+synonym: "TGW_MAIN, TKW_MAIN, THOUWT_MAIN, TGW_MAIN_g" EXACT []
+relationship: variable_of CO_321:0000025 ! grain weight
+relationship: variable_of CO_321:0001593 ! g
+relationship: variable_of CO_321:0500181 ! gw 30 spikes estimation
+is_a: CO_321:0000025 ! grain weight
+
+[Term]
+id: CO_321:0501087
+name: wheat gwid_m_mm variable
+synonym: "GWID_mm" EXACT []
+relationship: variable_of CO_321:0500038 ! grain width
+relationship: variable_of CO_321:0000428 ! mm
+relationship: variable_of CO_321:0500178 ! grain width measurement
+is_a: CO_321:0500038 ! grain width
+
+[Term]
+id: CO_321:0501088
+name: wheat gy_e_kgha variable
+synonym: "GY_MAIN_kgha" EXACT []
+relationship: variable_of CO_321:0000013 ! grain yield
+relationship: variable_of CO_321:0001033 ! g/1000 grain
+relationship: variable_of CO_321:0500180 ! gw 10 spikes estimation
+is_a: CO_321:0000013 ! grain yield
+
+[Term]
+id: CO_321:0501089
+name: wheat hesflydmg_b_e_0to9 variable
+synonym: "HESFDMG_B_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0000088 ! hessian fly damage
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500184 ! hesflydmg biotypeb estimation
+is_a: CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0501090
+name: wheat hesflydmg_c_e_0to9 variable
+synonym: "HESFDMG_C_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0000088 ! hessian fly damage
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500185 ! hesflydmg biotypec estimation
+is_a: CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0501091
+name: wheat hesflydmg_d_e_0to9 variable
+synonym: "HESFDMG_D_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0000088 ! hessian fly damage
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500186 ! hesflydmg biotyped estimation
+is_a: CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0501092
+name: wheat hesflydmg_e_1to9 variable
+synonym: "HESFDMG_1_9__RESP" EXACT []
+relationship: variable_of CO_321:0000088 ! hessian fly damage
+relationship: variable_of CO_321:0000309 ! hesflydmg estimation
+relationship: variable_of CO_321:0500520 ! 1-9 response scale
+is_a: CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0501093
+name: wheat hesflydmg_l_e_0to9 variable
+synonym: "HESFDMG_L_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0000088 ! hessian fly damage
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500187 ! hesflydmg biotypel estimation
+is_a: CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0501094
+name: wheat hesflydmg_o_e_0to9 variable
+synonym: "HESFDMG_O_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0000088 ! hessian fly damage
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500188 ! hesflydmg biotypeo estimation
+is_a: CO_321:0000088 ! hessian fly damage
+
+[Term]
+id: CO_321:0501095
+name: wheat infertspkn_e_0to10 variable
+synonym: "INFERTSPKN_0_10" EXACT []
+relationship: variable_of CO_321:0001484 ! infertile spike number
+relationship: variable_of CO_321:0500189 ! infertspkn estimation
+relationship: variable_of CO_321:0500507 ! 0-10 rating
+is_a: CO_321:0001484 ! infertile spike number
+
+[Term]
+id: CO_321:0501096
+name: wheat lasrc_rating_sd variable
+synonym: "LASRC_RATING" EXACT []
+relationship: variable_of CO_321:0500039 ! lactic acid src
+relationship: variable_of CO_321:0500191 ! lactic acid src rating estimation
+relationship: variable_of CO_321:0500501 ! -1 to 1 standard deviations
+is_a: CO_321:0500039 ! lactic acid src
+
+[Term]
+id: CO_321:0501097
+name: wheat lasrc_score_pct variable
+synonym: "LASRC_SCORE" EXACT []
+relationship: variable_of CO_321:0500039 ! lactic acid src
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500190 ! lactic acid src score estimation
+is_a: CO_321:0500039 ! lactic acid src
+
+[Term]
+id: CO_321:0501098
+name: wheat lodg_e_z50_pct variable
+synonym: "LODG_Z50_pct" EXACT []
+relationship: variable_of CO_321:0000167 ! lodging incidence
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500192 ! lodg z50 estimation
+is_a: CO_321:0000167 ! lodging incidence
+
+[Term]
+id: CO_321:0501099
+name: wheat lodg_e_z55_pct variable
+synonym: "LODG_Z55_pct" EXACT []
+relationship: variable_of CO_321:0000167 ! lodging incidence
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500193 ! lodg z55 estimation
+is_a: CO_321:0000167 ! lodging incidence
+
+[Term]
+id: CO_321:0501100
+name: wheat mat_canopy_jd variable
+synonym: "MAT_CANOPY_jd" EXACT []
+relationship: variable_of CO_321:0000022 ! maturity time
+relationship: variable_of CO_321:0000855 ! Julian date (JD)
+relationship: variable_of CO_321:0500194 ! mat ds87 canopy estimation
+is_a: CO_321:0000022 ! maturity time
+
+[Term]
+id: CO_321:0501101
+name: wheat mat_spk_jd variable
+synonym: "MAT_SPK_JD" EXACT []
+relationship: variable_of CO_321:0000022 ! maturity time
+relationship: variable_of CO_321:0000855 ! Julian date (JD)
+relationship: variable_of CO_321:0500195 ! mat ds87 spike estimation
+is_a: CO_321:0000022 ! maturity time
+
+[Term]
+id: CO_321:0501102
+name: wheat mq_rating_1to6 variable
+synonym: "MQ_RATING" EXACT []
+relationship: variable_of CO_321:0500041 ! milling quality
+relationship: variable_of CO_321:0500196 ! milling quality rating estimation
+relationship: variable_of CO_321:0500517 ! 1-6 grade rating
+is_a: CO_321:0500041 ! milling quality
+
+[Term]
+id: CO_321:0501103
+name: wheat mq_score_pct variable
+synonym: "MQ_SCORE" EXACT []
+relationship: variable_of CO_321:0500041 ! milling quality
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500197 ! milling quality score estimation
+is_a: CO_321:0500041 ! milling quality
+
+[Term]
+id: CO_321:0501104
+name: wheat mse_rating_1to6 variable
+synonym: "MSE_RATING" EXACT []
+relationship: variable_of CO_321:0500042 ! modified softness equivalent
+relationship: variable_of CO_321:0500198 ! mse rating estimation
+relationship: variable_of CO_321:0500517 ! 1-6 grade rating
+is_a: CO_321:0500042 ! modified softness equivalent
+
+[Term]
+id: CO_321:0501105
+name: wheat mse_score_pct variable
+synonym: "MSE_SCORE" EXACT []
+relationship: variable_of CO_321:0500042 ! modified softness equivalent
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500199 ! mse score estimation
+is_a: CO_321:0500042 ! modified softness equivalent
+
+[Term]
+id: CO_321:0501106
+name: wheat mtw_m_g variable
+synonym: "MTW_g" EXACT []
+relationship: variable_of CO_321:0500040 ! micro test weight
+relationship: variable_of CO_321:0001593 ! g
+relationship: variable_of CO_321:0500200 ! mtw measurement
+is_a: CO_321:0500040 ! micro test weight
+
+[Term]
+id: CO_321:0501107
+name: wheat niv_m_ppm variable
+synonym: "NIV_ppm" EXACT []
+relationship: variable_of CO_321:0500043 ! nivalenol level
+relationship: variable_of CO_321:0000425 ! ppm
+relationship: variable_of CO_321:0500201 ! nivalenol measurement
+is_a: CO_321:0500043 ! nivalenol level
+
+[Term]
+id: CO_321:0501108
+name: wheat pedglau_e_0to4 variable
+synonym: "PEDGLAU_0_4" EXACT []
+relationship: variable_of CO_321:0000054 ! peduncle glaucousness
+relationship: variable_of CO_321:0000274 ! pedglau estimation
+relationship: variable_of CO_321:0500511 ! 0-4 glaucousness rating
+is_a: CO_321:0000054 ! peduncle glaucousness
+
+[Term]
+id: CO_321:0501109
+name: wheat pgraminc_e_pct variable
+synonym: "PGRAM_pct__INC" EXACT []
+relationship: variable_of CO_321:0500053 ! stem rust incidence
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500209 ! rust incidence estimation
+is_a: CO_321:0500053 ! stem rust incidence
+
+[Term]
+id: CO_321:0501110
+name: wheat pgraminf_bccbc_e_0to9 variable
+synonym: "PGRAM_BCCBC_0_9__INF" EXACT []
+relationship: variable_of CO_321:0500054 ! stem rust infection type
+relationship: variable_of CO_321:0500212 ! rust infection type bccbc estimation
+relationship: variable_of CO_321:0500514 ! 0-9 stakman scale rating
+is_a: CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0501111
+name: wheat pgraminf_field_e_0to9 variable
+synonym: "PGRAM_FIELD_0_9__INF" EXACT []
+relationship: variable_of CO_321:0500054 ! stem rust infection type
+relationship: variable_of CO_321:0500213 ! rust infection type field bulk estimation
+relationship: variable_of CO_321:0500514 ! 0-9 stakman scale rating
+is_a: CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0501112
+name: wheat pgraminf_jrcqc_e_0to9 variable
+synonym: "PGRAM_JRCQC_0_9__INF" EXACT []
+relationship: variable_of CO_321:0500054 ! stem rust infection type
+relationship: variable_of CO_321:0500214 ! rust infection type jrcqc estimation
+relationship: variable_of CO_321:0500514 ! 0-9 stakman scale rating
+is_a: CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0501113
+name: wheat pgraminf_trttf_e_0to9 variable
+synonym: "PGRAM_TRTTF_0_9__INF" EXACT []
+relationship: variable_of CO_321:0500054 ! stem rust infection type
+relationship: variable_of CO_321:0500215 ! rust infection type trttf estimation
+relationship: variable_of CO_321:0500514 ! 0-9 stakman scale rating
+is_a: CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0501114
+name: wheat pgraminf_ttksk_e_0to9 variable
+synonym: "PGRAM_TTKSK_0_9__INF" EXACT []
+relationship: variable_of CO_321:0500054 ! stem rust infection type
+relationship: variable_of CO_321:0500216 ! rust infection type ttksk estimation
+relationship: variable_of CO_321:0500514 ! 0-9 stakman scale rating
+is_a: CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0501115
+name: wheat pgraminf_tttf_e_0to9 variable
+synonym: "PGRAM_TTTTF_0_9__INF" EXACT []
+relationship: variable_of CO_321:0500054 ! stem rust infection type
+relationship: variable_of CO_321:0500217 ! rust infection type ttttf estimation
+relationship: variable_of CO_321:0500514 ! 0-9 stakman scale rating
+is_a: CO_321:0500054 ! stem rust infection type
+
+[Term]
+id: CO_321:0501116
+name: wheat pgramresp_e_0to1 variable
+synonym: "PGRAM_0_1__RESP" EXACT []
+relationship: variable_of CO_321:0000177 ! stem rust plant response
+relationship: variable_of CO_321:0500210 ! rust infection response estimation - final
+relationship: variable_of CO_321:0500504 ! 0-1 Rating
+is_a: CO_321:0000177 ! stem rust plant response
+
+[Term]
+id: CO_321:0501118
+name: wheat pgramsev_e_0to9 variable
+synonym: "PGRAM_0_9__SEV" EXACT []
+relationship: variable_of CO_321:0000693 ! rust severity estimation
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0000905 ! stem rust severity
+is_a: CO_321:0000693 ! rust severity estimation
+
+[Term]
+id: CO_321:0501120
+name: wheat plntstnd_e_0to9 variable
+synonym: "PLNTSTND_0_9" EXACT []
+relationship: variable_of CO_321:0000187 ! plant stand
+relationship: variable_of CO_321:0000450 ! 0-9 density scale
+relationship: variable_of CO_321:0500202 ! plntstnd estimation
+is_a: CO_321:0000187 ! plant stand
+
+[Term]
+id: CO_321:0501121
+name: wheat ppoactivity_e_au variable
+synonym: "PPOActivity_au" EXACT []
+relationship: variable_of CO_321:0500044 ! polyphenol oxidase activity
+relationship: variable_of CO_321:0500203 ! ppo activity estimation
+relationship: variable_of CO_321:0500503 ! 0-1 Absorbance Units
+is_a: CO_321:0500044 ! polyphenol oxidase activity
+
+[Term]
+id: CO_321:0501122
+name: wheat precoresp_e_0to1 variable
+synonym: "PRECO_0_1__RESP" EXACT []
+relationship: variable_of CO_321:0000178 ! leaf rust plant response
+relationship: variable_of CO_321:0000706 ! precoresp estimation
+relationship: variable_of CO_321:0500505 ! 0-1 response
+is_a: CO_321:0000178 ! leaf rust plant response
+
+[Term]
+id: CO_321:0501123
+name: wheat precoresp_e_0to9 variable
+synonym: "PRECO_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0000178 ! leaf rust plant response
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0000706 ! precoresp estimation
+is_a: CO_321:0000178 ! leaf rust plant response
+
+[Term]
+id: CO_321:0501124
+name: wheat precosdlgresp_ca1.2_e_0to9 variable
+synonym: "PRECO_CA1.2_0_9__SEEDRESP" EXACT []
+relationship: variable_of CO_321:0000901 ! leaf rust seedling response
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500204 ! precoresp seedling ca1.2 estimation
+is_a: CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0501125
+name: wheat precosdlgresp_e_0to4 variable
+synonym: "PRECO_0_4__SEEDRESP" EXACT []
+relationship: variable_of CO_321:0000901 ! leaf rust seedling response
+relationship: variable_of CO_321:0500205 ! precoresp seedling estimation
+relationship: variable_of CO_321:0500510 ! 0-4 disease rating with qualifiers
+is_a: CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0501126
+name: wheat precosdlgresp_fieldmix_e_0to9 variable
+synonym: "PRECO_FIELDMIX_0_9__SEEDRESP" EXACT []
+relationship: variable_of CO_321:0000901 ! leaf rust seedling response
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500206 ! precoresp seedling field mix estimation
+is_a: CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0501127
+name: wheat precosdlgresp_race1_e_0to9 variable
+synonym: "PRECO_RACE1_0_9__SEEDRESP" EXACT []
+relationship: variable_of CO_321:0000901 ! leaf rust seedling response
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500207 ! precoresp seedling race 1 estimation
+is_a: CO_321:0000901 ! leaf rust seedling response
+
+[Term]
+id: CO_321:0501138
+name: wheat sbmvci_calc_0to5 variable
+synonym: "SBMVCI_0_5__CI" EXACT []
+relationship: variable_of CO_321:0500049 ! soil borne mosaic infection coefficient
+relationship: variable_of CO_321:0500223 ! sbmv infection coefficient
+relationship: variable_of CO_321:0500512 ! 0-5 rating
+is_a: CO_321:0500049 ! soil borne mosaic infection coefficient
+
+[Term]
+id: CO_321:0501139
+name: wheat sbmvinc_e_pct variable
+synonym: "SBMV_pct__INC" EXACT []
+relationship: variable_of CO_321:0000173 ! soil borne mosaic incidence
+relationship: variable_of CO_321:0000359 ! sbmvinc estimation
+relationship: variable_of CO_321:0000410 ! %
+is_a: CO_321:0000173 ! soil borne mosaic incidence
+
+[Term]
+id: CO_321:0501140
+name: wheat sbmvresp_e_0to9 variable
+synonym: "SBMV_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0500050 ! soil borne mosaic plant response
+relationship: variable_of CO_321:0500224 ! sbmv response estimation
+relationship: variable_of CO_321:0500513 ! 0-9 response scale
+is_a: CO_321:0500050 ! soil borne mosaic plant response
+
+[Term]
+id: CO_321:0501141
+name: wheat se_rating_sd variable
+synonym: "SE_RATING" EXACT []
+relationship: variable_of CO_321:0500048 ! softness equivalent
+relationship: variable_of CO_321:0500225 ! se rating estimation
+relationship: variable_of CO_321:0500501 ! -1 to 1 standard deviations
+is_a: CO_321:0500048 ! softness equivalent
+
+[Term]
+id: CO_321:0501142
+name: wheat se_score_pct variable
+synonym: "SE_SCORE" EXACT []
+relationship: variable_of CO_321:0500048 ! softness equivalent
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500226 ! se score estimation
+is_a: CO_321:0500048 ! softness equivalent
+
+[Term]
+id: CO_321:0501143
+name: wheat shattering_e_0to9 variable
+synonym: "SHATTERING_0_9" EXACT []
+relationship: variable_of CO_321:0000057 ! spike shattering
+relationship: variable_of CO_321:0000278 ! shattering estimation
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+is_a: CO_321:0000057 ! spike shattering
+
+[Term]
+id: CO_321:0501144
+name: wheat snodoresp_e_0to9 variable
+synonym: "SNODO_0_9__RESP" EXACT []
+relationship: variable_of CO_321:0500047 ! septoria nodorum blotch plant response
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500229 ! snodoresp estimation
+is_a: CO_321:0500047 ! septoria nodorum blotch plant response
+
+[Term]
+id: CO_321:0501145
+name: wheat snodosev_e_0to9 variable
+synonym: "SNODO_0_9__SEV" EXACT []
+relationship: variable_of CO_321:0000717 ! septoria nodorum blotch severity
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0000991 ! snodosev estimation
+is_a: CO_321:0000717 ! septoria nodorum blotch severity
+
+[Term]
+id: CO_321:0501146
+name: wheat snodosev_spike_e_0to9 variable
+synonym: "SNODO_SPIKE_0_9__SEV" EXACT []
+relationship: variable_of CO_321:0000717 ! septoria nodorum blotch severity
+relationship: variable_of CO_321:0000446 ! 0-9 percentage scale
+relationship: variable_of CO_321:0500230 ! snodosev spike estimation
+is_a: CO_321:0000717 ! septoria nodorum blotch severity
+
+[Term]
+id: CO_321:0501147
+name: wheat spkcol_e_1to5 variable
+synonym: "SPKCOL_1_5" EXACT []
+relationship: variable_of CO_321:0500051 ! spike color
+relationship: variable_of CO_321:0500231 ! spkcol estimation
+relationship: variable_of CO_321:0500516 ! 1-5 color rating
+is_a: CO_321:0500051 ! spike color
+
+[Term]
+id: CO_321:0501148
+name: wheat spkdw_m_g variable
+synonym: "SPKDW_g" EXACT []
+relationship: variable_of CO_321:0001523 ! spike dry weight
+relationship: variable_of CO_321:0001593 ! g
+relationship: variable_of CO_321:0500232 ! spkdw measurement
+is_a: CO_321:0001523 ! spike dry weight
+
+[Term]
+id: CO_321:0501149
+name: wheat spkglau_e_1to9 variable
+synonym: "SPKGLAU_1_9" EXACT []
+relationship: variable_of CO_321:0500052 ! spike glaucousness
+relationship: variable_of CO_321:0500233 ! spkglau estimation
+relationship: variable_of CO_321:0500518 ! 1-9 glaucousness rating
+is_a: CO_321:0500052 ! spike glaucousness
+
+[Term]
+id: CO_321:0501150
+name: wheat spkglau_m_0to1 variable
+synonym: "SPKGLAU_0_1" EXACT []
+relationship: variable_of CO_321:0500052 ! spike glaucousness
+relationship: variable_of CO_321:0500234 ! spkglau presence measurement
+relationship: variable_of CO_321:0500502 ! 0-1 absence/presence
+is_a: CO_321:0500052 ! spike glaucousness
+
+[Term]
+id: CO_321:0501151
+name: wheat ssrc_rating_sd variable
+synonym: "SSRC_Rating" EXACT []
+relationship: variable_of CO_321:0500055 ! sucrose src
+relationship: variable_of CO_321:0500235 ! sucrose src rating estimation
+relationship: variable_of CO_321:0500501 ! -1 to 1 standard deviations
+is_a: CO_321:0500055 ! sucrose src
+
+[Term]
+id: CO_321:0501152
+name: wheat ssrc_score_pct variable
+synonym: "SSRC_Score" EXACT []
+relationship: variable_of CO_321:0500055 ! sucrose src
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500236 ! sucrose src score estimation
+is_a: CO_321:0500055 ! sucrose src
+
+[Term]
+id: CO_321:0501153
+name: wheat stmdia_m_1to9 variable
+synonym: "STMDIA_1_9" EXACT []
+relationship: variable_of CO_321:0000062 ! stem diameter
+relationship: variable_of CO_321:0000284 ! stmdia measurement
+relationship: variable_of CO_321:0500521 ! 1-9 thickness rating
+is_a: CO_321:0000062 ! stem diameter
+
+[Term]
+id: CO_321:0501154
+name: wheat stmsol_e_5to25 variable
+synonym: "STMSOL_5_25" EXACT []
+relationship: variable_of CO_321:0000061 ! stem solidness
+relationship: variable_of CO_321:0000283 ! stmsol estimation
+relationship: variable_of CO_321:0500522 ! 5-25 5 stem solidness rating
+is_a: CO_321:0000061 ! stem solidness
+
+[Term]
+id: CO_321:0501155
+name: wheat vegprt_m_pct variable
+synonym: "VEGPRT_pct" EXACT []
+relationship: variable_of CO_321:0500056 ! vegetative protein content at maturity
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500237 ! vegetative protein measurement
+is_a: CO_321:0500056 ! vegetative protein content at maturity
+
+[Term]
+id: CO_321:0501156
+name: wheat canopysen_avg_m_pct variable
+synonym: "CANOPYSEN_AVG_pct" EXACT []
+relationship: variable_of CO_321:0500003 ! canopy senescence
+relationship: variable_of CO_321:0000410 ! %
+relationship: variable_of CO_321:0500238 ! canopy senescence measurement - average
+is_a: CO_321:0500003 ! canopy senescence
 
 [Typedef]
 id: method_of
