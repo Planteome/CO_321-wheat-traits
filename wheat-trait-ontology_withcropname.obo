@@ -8293,7 +8293,7 @@ is_a: CO_321:1000003
 
 [Term]
 id: CO_321:0500045
-name: wheat powdery midlew plant response trait
+name: wheat powdery mildew plant response trait
 def: "Powdery mildew plant response caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators]
 synonym: "EgramResp" EXACT []
 is_a: TO:0020061
