@@ -9303,15 +9303,6 @@ relationship: variable_of CO_321:0000855 ! Julian date (JD)
 is_a: CO_321:0000121 ! anthesis time
 
 [Term]
-id: CO_321:0501002
-name: wheat ant_e_jd variable
-synonym: "ANT_jd" EXACT []
-relationship: variable_of CO_321:0000121 ! anthesis time
-relationship: variable_of CO_321:0000832 ! ant ds65 date estimation
-relationship: variable_of CO_321:0000855 ! Julian date (JD)
-is_a: CO_321:0000121 ! anthesis time
-
-[Term]
 id: CO_321:0501003
 name: wheat blkglmcol_m_0to1 variable
 synonym: "BLKGLMCOL_0_1" EXACT []
