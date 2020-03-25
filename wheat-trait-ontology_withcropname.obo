@@ -1014,10 +1014,11 @@ is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000187
-name: wheat plant stand
+name: wheat plant stand trait
 def: "Plant population or plant density." [CO:curators]
 synonym: "Plant establishment, Crop stand, Plant density, Plant population" EXACT []
 synonym: "PlntStnd" EXACT []
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_321:0000189
@@ -8282,14 +8283,14 @@ id: CO_321:0500043
 name: wheat nivalenol level trait
 def: "Nivalenol concentration" [CO:curators]
 synonym: "NIV" EXACT []
-is_a: TO_0000668
+is_a: TO:0000668
 
 [Term]
 id: CO_321:0500044
 name: wheat polyphenol oxidase activity trait
 def: "Measures oxidation of an L-DOPA substrate to a red-colored product as an indirect measure of PPO activity" [CO:curators]
 synonym: "PPOActivity" EXACT []
-is_a: CO_321:1000003
+is_a: TO:0000599 ! enzyme activity trait
 
 [Term]
 id: CO_321:0500045
