@@ -7965,7 +7965,6 @@ id: CO_321:0500001
 name: wheat baking quality trait
 def: "Baking quality assessment" [CO:curators]
 synonym: "BQ" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0001069
 
 [Term]
@@ -7999,7 +7998,6 @@ id: CO_321:0500006
 name: wheat cookie diameter trait
 def: "Diameter of sugar snap cookie. Reflects genetic and environmental factors. Cookie diameters should be compared to those of standard cultivars." [CO:curators]
 synonym: "CD" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0001069
 
 [Term]
@@ -8049,7 +8047,6 @@ id: CO_321:0500013
 name: wheat forage ash content trait
 def: "Ash concentration of forage" [CO:curators]
 synonym: "ForAsh" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000607
 
 [Term]
@@ -8057,7 +8054,6 @@ id: CO_321:0500014
 name: wheat forage fiber content trait
 def: "Fober concentration of forage" [CO:curators]
 synonym: "ForFib" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0002642
 
 [Term]
@@ -8065,7 +8061,6 @@ id: CO_321:0500015
 name: wheat forage moisture content trait
 def: "Moisture in forage sample" [CO:curators]
 synonym: "ForMst" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000228
 
 [Term]
@@ -8073,7 +8068,6 @@ id: CO_321:0500016
 name: wheat forage ndf content trait
 def: "Neutral detergent fiber concentration of forage" [CO:curators]
 synonym: "ForNDF" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0002642
 
 [Term]
@@ -8081,7 +8075,6 @@ id: CO_321:0500017
 name: wheat forage protein content trait
 def: "Protein concentration of forage" [CO:curators]
 synonym: "ForPrt" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000598
 
 [Term]
@@ -8089,7 +8082,6 @@ id: CO_321:0500018
 name: wheat forage starch content trait
 def: "Starch concentration of forage" [CO:curators]
 synonym: "ForStr" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000696
 
 [Term]
@@ -8134,7 +8126,6 @@ id: CO_321:0500024
 name: wheat grain arsenic content trait
 def: "Content of Arsenic in grain." [CO:curators]
 synonym: "GArse" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006054
 
 [Term]
@@ -8142,7 +8133,6 @@ id: CO_321:0500025
 name: wheat grain ash content trait
 def: "Grain ash concentration" [CO:curators]
 synonym: "GrnAsh" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000607
 
 [Term]
@@ -8150,7 +8140,6 @@ id: CO_321:0500026
 name: wheat grain cadmium content trait
 def: "Content of Cadmium in grain." [CO:curators]
 synonym: "GCadm" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006059
 
 [Term]
@@ -8158,7 +8147,6 @@ id: CO_321:0500027
 name: wheat grain calcium content trait
 def: "Content of Calcium in grain." [CO:curators]
 synonym: "GCalc" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006047
 
 [Term]
@@ -8166,7 +8154,6 @@ id: CO_321:0500028
 name: wheat grain cobalt content trait
 def: "Content of Cobalt in grain." [CO:curators]
 synonym: "GCoba" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0001044
 
 [Term]
@@ -8174,7 +8161,6 @@ id: CO_321:0500029
 name: wheat grain copper content trait
 def: "Content of Copper in grain." [CO:curators]
 synonym: "GCopp" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0020092
 
 [Term]
@@ -8182,7 +8168,6 @@ id: CO_321:0500030
 name: wheat grain lead content trait
 def: "Content of Lead in grain." [CO:curators]
 synonym: "GLead" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0001047
 
 [Term]
@@ -8190,7 +8175,6 @@ id: CO_321:0500031
 name: wheat grain lithium content trait
 def: "Content of Lithium in grain." [CO:curators]
 synonym: "GLith" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006042
 
 [Term]
@@ -8198,7 +8182,6 @@ id: CO_321:0500032
 name: wheat grain magnesium content trait
 def: "Content of Magnesium in grain." [CO:curators]
 synonym: "GMagn" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006044
 
 [Term]
@@ -8206,7 +8189,6 @@ id: CO_321:0500033
 name: wheat grain manganese content trait
 def: "Content Manganese in grain." [CO:curators]
 synonym: "GMang" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0020091
 
 [Term]
@@ -8214,7 +8196,6 @@ id: CO_321:0500034
 name: wheat grain molybdenum content trait
 def: "Content of Molybdenum in grain." [CO:curators]
 synonym: "GMoly" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006056
 
 [Term]
@@ -8222,7 +8203,6 @@ id: CO_321:0500035
 name: wheat grain nickel content trait
 def: "Content of Nickel in grain." [CO:curators]
 synonym: "GNick" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006051
 
 [Term]
@@ -8230,7 +8210,6 @@ id: CO_321:0500036
 name: wheat grain potassium content trait
 def: "Content of Potasium in grain." [CO:curators]
 synonym: "GPota" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000609
 
 [Term]
@@ -8238,7 +8217,6 @@ id: CO_321:0500037
 name: wheat grain sulphur content trait
 def: "Content of Sulphur in grain." [CO:curators]
 synonym: "GSulp" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0006046
 
 [Term]
@@ -8253,7 +8231,6 @@ id: CO_321:0500039
 name: wheat lactic acid src trait
 def: "Lactic acid solvent retention capacity" [CO:curators]
 synonym: "LASRC" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000162
 
 [Term]
@@ -8268,7 +8245,6 @@ id: CO_321:0500041
 name: wheat milling quality trait
 def: "Flour yield of a genotype relative to the standard variety used for that nursery" [CO:curators]
 synonym: "MQ" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000162
 
 [Term]
@@ -8276,7 +8252,6 @@ id: CO_321:0500042
 name: wheat modified softness equivalent trait
 def: "Softness equivalent is a flour particle size test that is correlated to break flour yields. Softness equivalent rating of a genotype relative to the standard variety used for that nursery." [CO:curators]
 synonym: "MSE" EXACT []
-is_a: CO_321:1000003
 
 [Term]
 id: CO_321:0500043
@@ -8318,7 +8293,6 @@ id: CO_321:0500048
 name: wheat softness equivalent trait
 def: "Softness equivalent is a flour particle size test that is correlated to break flour yields" [CO:curators]
 synonym: "SE" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0002646
 
 [Term]
@@ -8368,7 +8342,6 @@ id: CO_321:0500055
 name: wheat sucrose src trait
 def: "Sucrose solvent retention capacity (SRC) is the best predictor of cookie quality." [CO:curators]
 synonym: "SSRC" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000162
 
 [Term]
@@ -8376,7 +8349,6 @@ id: CO_321:0500056
 name: wheat vegetative protein content at maturity trait
 def: "Protein concentration of vegetative biomass harvested at physiological maturity" [CO:curators]
 synonym: "VegPrt" EXACT []
-is_a: CO_321:1000003
 is_a: TO:0000598
 
 [Term]
