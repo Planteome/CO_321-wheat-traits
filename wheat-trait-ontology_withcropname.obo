@@ -3186,7 +3186,7 @@ id: CO_321:0000685
 name: wheat worm damage trait
 def: "The plant damage caused by worms." [CO:curators]
 synonym: "WormDmg" EXACT []
-is_a: TO:0000384
+is_a: TO:0000054 ! animal damage resistance
 
 [Term]
 id: CO_321:0000686
