@@ -745,7 +745,7 @@ id: CO_321:0000132
 name: wheat salinity tolerance trait
 def: "Plant tolerance to soil salinity." [CO:curators]
 synonym: "SaltTol" EXACT []
-is_a: TO:0000168
+is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_321:0000141
