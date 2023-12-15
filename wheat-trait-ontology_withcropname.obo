@@ -628,8 +628,8 @@ is_a: TO:0001146 ! Basidiomycete fungal disease response
 [Term]
 id: CO_321:0000102
 name: wheat eyespot plant response trait
-def: "Eye spot response in the plants caused by the fungal species Tapesia yallundae (Pseudocercosporella herpotrichoide w-type) and Tapesia acuformis (Pseudocercosporella herpotrichoides r-type). 
-comment: Symptoms: the eye shape elliptical lesions forms on lower base of stem and lower leaf sheath. The eyespots are straw yellow in color from the middle and are surrounded by greenish brown to dark brown rings." [CO:curators]
+def: "Eye spot response in the plants caused by the fungal species Tapesia yallundae (Pseudocercosporella herpotrichoide w-type) and Tapesia acuformis (Pseudocercosporella herpotrichoides r-type)." [CO:curators] 
+comment: Symptoms: the eye shape elliptical lesions forms on lower base of stem and lower leaf sheath. The eyespots are straw yellow in color from the middle and are surrounded by greenish brown to dark brown rings.
 synonym: "PherpResp" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -921,7 +921,7 @@ is_a: TO:0000068
 
 [Term]
 id: CO_321:0000168
-name: wheat fusarium wilt incidence trait
+name: wheat Fusarium wilt incidence trait
 def: "Fusarium wilt incidence in the plants caused by the agent Fusarium oxysporum." [CO:curators, NCBITaxon:5507]
 synonym: "FoxiWilt" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
@@ -974,15 +974,15 @@ id: CO_321:0000178
 name: wheat leaf rust plant response trait
 def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators]
 synonym: "PrecoResp" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease response
 
 [Term]
 id: CO_321:0000179
 name: wheat stripe rust plant response trait
-def: "Stripe rust (yellow rust) response in the plants caused by the agent puccinia striiformis f.sp. tritici." [CO:curators]
+def: "Stripe rust (yellow rust) response in the plants caused by the agent Puccinia striiformis f.sp. tritici." [CO:curators]
 synonym: "PstriResp" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease response
 
 [Term]
 id: CO_321:0000182
@@ -1576,9 +1576,9 @@ relationship: method_of CO_321:0000059 ! canopy stay green
 [Term]
 id: CO_321:0000281
 name: wheat common bunt spike incidence trait
-def: "Common bunt (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt) incidence in the plants caused by the agent tilletia species." [CO:curators]
+def: "Common bunt (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt) incidence in the plants caused by the agent Tilletia species." [CO:curators, NCBITaxon:13289]
 synonym: "TilSpSpkInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000282
@@ -1961,9 +1961,10 @@ relationship: method_of CO_321:0000132 ! salinity tolerance
 [Term]
 id: CO_321:0000345
 name: wheat tan spot plant response trait
-def: "Tan spot (pyrenophora yellow leaf blotch, yellow spot) response in the plants caused by the agent pyrenophora tritici-repentis (helminthosporium tritici-repentis). symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin." [CO:curators]
+def: "Tan spot (Pyrenophora yellow leaf blotch, yellow spot) response in the plants caused by the agent Pyrenophora tritici-repentis (Helminthosporium tritici-repentis)." [CO:curators, NCBITaxon:45151]
+comment: Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.
 synonym: "TanSpotResp" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000346
@@ -2997,38 +2998,39 @@ relationship: method_of CO_321:0000935 ! barley leaf rust incidence
 [Term]
 id: CO_321:0000649
 name: wheat common root rot incidence trait
-def: "Common root rot incidence in the plants caused by the agents cochliobolus sativus, fusarium spp., and pythium species." [CO:curators]
+def: "Common root rot incidence in the plants caused by the agents Cochliobolus sativus, Fusarium spp., and Pythium species." [CO:curators]
 synonym: "RootRot" EXACT []
-is_a: TO:0020059
+is_a: TO:0020059 ! wheat common root rot response
 
 [Term]
 id: CO_321:0000650
 name: wheat tan spot severity trait
-def: "Tan spot (pyrenophora yellow leaf blotch, yellow spot) severity in the plants caused by the agent pyrenophora tritici-repentis (helminthosporium tritici-repentis). symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin." [CO:curators]
+def: "Tan spot (Pyrenophora yellow leaf blotch, yellow spot) severity in the plants caused by the agent Pyrenophora tritici-repentis (Helminthosporium tritici-repentis). " [CO:curators, NCBITaxon:45151]
+comment: Symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin.
 synonym: "TanSpotSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000651
-name: wheat fusarium head blight audpc trait
-def: "Fusarium head blight (scab) incidence/severity/response in the plants caused by the agent fusarium spp." [CO:curators]
+name: wheat Fusarium head blight audpc trait
+def: "Fusarium head blight (scab) incidence/severity/response in the plants caused by the agent Fusarium spp." [CO:curators]
 synonym: "FHBAUDPC" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000652
 name: wheat fusarium head blight don content trait
 def: "Content of deoxynivalenol or don (vomitoxin) that is often associated with fhb (fusarium spp.) infected grains." [CO:curators]
 synonym: "FHBDON" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000653
 name: wheat fusarium leaf blotch severity trait
-def: "Fusarium leaf blotch (pink snow mold, fusarium patch) severity in the plants caused by the agent calonectria nivalis (fusarium nivale)." [CO:curators]
+def: "Fusarium leaf blotch (pink snow mold, fusarium patch) severity in the plants caused by the agent Calonectria nivalis (Fusarium nivale, Microdochium nivale)." [CO:curators, NCBITaxon:5520]
 synonym: "FNIVLB, FNIVAL" EXACT []
 synonym: "FnivLBSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000654
@@ -3156,10 +3158,10 @@ is_a: TO:0000250
 
 [Term]
 id: CO_321:0000681
-name: wheat rhizoctonia root rot incidence trait
-def: "Rhizoctonia root rot incidence in the plants caused by the agent rhizoctonia solani." [CO:curators]
+name: wheat Rhizoctonia root rot incidence trait
+def: "Rhizoctonia root rot incidence in the plants caused by the agent Rhizoctonia solani." [CO:curators, NCBITaxon:456999]
 synonym: "RsolaInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000682
@@ -3180,7 +3182,7 @@ id: CO_321:0000684
 name: wheat spike disease development trait
 def: "The plant damage caused by spike diseases." [CO:curators]
 synonym: "SpkDis" EXACT []
-is_a: TO:0000112 ! disease resistance
+is_a: TO:0000112 ! microbial disease response
 
 [Term]
 id: CO_321:0000685
@@ -3191,33 +3193,33 @@ is_a: TO:0000054 ! animal damage resistance
 
 [Term]
 id: CO_321:0000686
-name: wheat helminthosporium species severity trait
-def: "The disease severity in the plants caused by the agent helminthosporium species." [CO:curators]
+name: wheat Helminthosporium species severity trait
+def: "The disease severity in the plants caused by the agent Helminthosporium species." [CO:curators, NCBITaxon:58127]
 synonym: "HelSpSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000687
 name: wheat leaf rust notes trait
-def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent Puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoNote" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease response
 
 [Term]
 id: CO_321:0000688
 name: wheat stem rust coefficient of infection trait
-def: "Stem rust (black rust) incidence/severity/response in the plants caused by the agent puccinia graminis f.sp. triticii." [CO:curators]
+def: "Stem rust (black rust) incidence/severity/response in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramCI" EXACT []
 synonym: "Stem rust CI, Stem rust" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000689
 name: wheat stripe rust coefficient of infection trait
-def: "Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent puccinia striiformis f.sp. tritici." [CO:curators]
+def: "Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriCI" EXACT []
 synonym: "Stripe rust CI, Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease response
 
 [Term]
 id: CO_321:0000690
@@ -3364,16 +3366,16 @@ relationship: method_of CO_321:0000907 ! stripe rust notes
 [Term]
 id: CO_321:0000710
 name: wheat barley scald severity trait
-def: "Barley scald severity in the plants caused by the agent rhynchosporium secalis." [CO:curators]
+def: "Barley scald severity in the plants caused by the agent Rhynchosporium secalis." [CO:curators, NCBITaxon:38038]
 synonym: "RSecaSev" EXACT []
-is_a: TO:0020052
+is_a: TO:0020051 ! barley leaf scald disease response
 
 [Term]
 id: CO_321:0000711
 name: wheat fusarium head blight spikelet incidence trait
-def: "Fusarium head blight (scab) spikelets incidence caused by the agent fusarium spp." [CO:curators]
+def: "Fusarium head blight (scab) spikelets incidence caused by the agent Fusarium spp." [CO:curators]
 synonym: "FHBSplInc" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0000712
@@ -3389,17 +3391,17 @@ relationship: method_of CO_321:0000682 ! root disease development
 
 [Term]
 id: CO_321:0000714
-name: wheat septoria blotch severity trait
-def: "Septoria blotch severity in the plants caused by the agent septoria species." [CO:curators]
+name: wheat Septoria blotch severity trait
+def: "Septoria blotch severity in the plants caused by the agent Septoria species." [CO:curators, NCBITaxon:39702]
 synonym: "SepSpSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000715
-name: wheat septoria blotch plant response trait
-def: "Septoria blotch response in the plants caused by the agent septoria species." [CO:curators]
+name: wheat Septoria blotch plant response trait
+def: "Septoria blotch response in the plants caused by the agent Septoria species." [CO:curators, NCBITaxon:39702]
 synonym: "SepSpResp" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000716
@@ -3410,24 +3412,26 @@ relationship: method_of CO_321:0000715 ! septoria blotch plant response
 
 [Term]
 id: CO_321:0000717
-name: wheat septoria nodorum blotch severity trait
-def: "Septoria nodorum blotch severity in the plants caused by the agent stagonospora nodorum (syn. septoria glume blotch) (phaeosphaeria nodorum (e. müller) hedjaroude (syn. stagonospora nodorum)." [CO:curators]
+name: wheat Septoria nodorum blotch severity trait
+def: "Septoria nodorum blotch severity in the plants caused by the agent Stagonospora nodorum (syn. Septoria glume blotch) (Phaeosphaeria nodorum (e. müller) hedjaroude (syn. Stagonospora nodorum) (Parastagonospora nodorum)." [CO:curators, NCBITaxon:13684]
 synonym: "SnodoSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000718
 name: wheat septoria tritici blotch severity trait
-def: "Septoria tritici blotch severity in the plants caused by the agent mycosphaerella graminicola (septoria tritici). symptoms: the lesions are linear and restricted laterally." [CO:curators]
+def: "Septoria tritici blotch severity in the plants caused by the agent Mycosphaerella graminicola (septoria tritici) (Zymoseptoria tritici)." [CO:curators, NCBITaxon:1047171]
+comment: Symptoms: the lesions are linear and restricted laterally.
 synonym: "StritSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000719
 name: wheat septoria tritici blotch plant response trait
-def: "Septoria tritici blotch response in the plants caused by the agent mycosphaerella graminicola (septoria tritici). symptoms: the lesions are linear and restricted laterally." [CO:curators]
+def: "Septoria tritici blotch response in the plants caused by the agent Mycosphaerella graminicola (septoria tritici)." [CO:curators, NCBITaxon:1047171]
+comment: Symptoms: the lesions are linear and restricted laterally.
 synonym: "StritResp" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000720
@@ -4000,75 +4004,75 @@ relationship: method_of CO_321:0000899 ! leaf rust legacy
 [Term]
 id: CO_321:0000901
 name: wheat leaf rust seedling response trait
-def: "Leaf rust (brown rust) response in the plants caused by the agent puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators]
 synonym: "PrecoSdlgResp" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057 ! wheat leaf rust disease response
 
 [Term]
 id: CO_321:0000902
 name: wheat leaf rust severity trait
-def: "Leaf rust (brown rust) severity in the plants caused by the agent puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) severity in the plants caused by the agent Puccinia recondita (Puccinia triticina)." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoSev" EXACT []
-is_a: TO:0020057
+is_a: TO:0020057  ! wheat leaf rust disease response
 
 [Term]
 id: CO_321:0000903
 name: wheat stem rust notes trait
-def: "Stem rust (black rust) incidence/severity/response in the plants caused by the agent puccinia graminis f.sp. triticii." [CO:curators]
+def: "Stem rust (black rust) incidence/severity/response in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramNote" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000904
 name: wheat stem rust seedling response trait
-def: "Stem rust (black rust) response in the plants caused by the agent puccinia graminis f.sp. triticii." [CO:curators]
+def: "Stem rust (black rust) response in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramSdlgResp" EXACT []
 synonym: "Stem rust" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000905
 name: wheat stem rust severity trait
-def: "Stem rust (black rust) severity in the plants caused by the agent puccinia graminis f.sp. triticii." [CO:curators]
+def: "Stem rust (black rust) severity in the plants caused by the agent Puccinia graminis f. sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramSev" EXACT []
 synonym: "Stem rust" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000906
 name: wheat stripe rust incidence trait
-def: "Stripe rust (yellow rust) incidence in the plants caused by the agent puccinia striiformis f.sp. tritici." [CO:curators]
+def: "Stripe rust (yellow rust) incidence in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriInc" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease response
 
 [Term]
 id: CO_321:0000907
 name: wheat stripe rust notes trait
-def: "Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent puccinia striiformis f.sp. tritici." [CO:curators]
+def: "Stripe rust (yellow rust) incidence/severity/response in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriNote" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease response
 
 [Term]
 id: CO_321:0000908
 name: wheat stripe rust severity trait
-def: "Stripe rust (yellow rust) severity in the plants caused by the agent puccinia striiformis f.sp. tritici." [CO:curators]
+def: "Stripe rust (yellow rust) severity in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriSev" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease response
 
 [Term]
 id: CO_321:0000909
 name: wheat stripe rust spike severity trait
-def: "Stripe rust (yellow rust) severity in the plants caused by the agent puccinia striiformis f.sp. tritici." [CO:curators]
+def: "Stripe rust (yellow rust) severity in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curatorsNCBITaxon:168172]
 synonym: "PstriSpkSev" EXACT []
 synonym: "Stripe rust" EXACT []
-is_a: TO:0020055
+is_a: TO:0020055 ! wheat stripe rust disease response
 
 [Term]
 id: CO_321:0000910
 name: wheat tan spot incidence trait
-def: "Tan spot (pyrenophora yellow leaf blotch, yellow spot) incidence in the plants caused by the agent pyrenophora tritici-repentis (helminthosporium tritici-repentis). symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin." [CO:curators]
+def: "Tan spot (pyrenophora yellow leaf blotch, yellow spot) incidence in the plants caused by the agent Pyrenophora tritici-repentis (helminthosporium tritici-repentis). symptoms: the lesions appear as tan to brown flecks, which expand into large, irregular, oval- or lens-shaped tan blotches with a yellow or chlorotic margin." [CO:curators]
 synonym: "TanSpotInc" EXACT []
 is_a: TO:0000439
 
