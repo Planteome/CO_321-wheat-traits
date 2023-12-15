@@ -586,9 +586,9 @@ is_a: TO:0000261
 [Term]
 id: CO_321:0000095
 name: wheat barley stripe mosaic incidence trait
-def: "Barley stripe mosaic incidence in the plants caused by barley stripe mosaic virus." [CO:curators]
+def: "Barley stripe mosaic incidence in the plants caused by barley stripe mosaic virus." [CO:curators, NCBITaxon:12327]
 synonym: "BSMV" EXACT []
-is_a: TO:0000439
+is_a: TO:0000148 ! viral disease response
 
 [Term]
 id: CO_321:0000096
@@ -600,51 +600,52 @@ is_a: TO:0020067
 [Term]
 id: CO_321:0000097
 name: wheat black point incidence trait
-def: "Black point incidence in the plants caused by the fungal species such as helminthosporium sativum (cochliobolus sativus), alternaria alternata and fusarium spp. also black point symptoms are associated to physiological disorders." [CO:curators]
+def: "Black point incidence in the plants caused by the fungal species such as Helminthosporium sativum (cochliobolus sativus), Alternaria alternata and Fusarium spp. Also, black point symptoms are associated to physiological disorders." [CO:curators]
 synonym: "BlkPtInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000099
-name: wheat tilletia laevis bunt incidence trait
-def: "Bunt incidence in the plants caused by the agent tilletia laevis (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt)." [CO:curators]
+name: wheat Tilletia laevis bunt incidence trait
+def: "Bunt incidence in the plants caused by the agent Tilletia laevis (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt)." [CO:curators, NCBITaxon:157183]
 synonym: "TlaevInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000100
-name: wheat tilletia tritici bunt incidence trait
-def: "Bunt incidence in the plants caused by the agent tilletia tritici (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt)." [CO:curators]
+name: wheat Tilletia tritici bunt incidence trait
+def: "Bunt incidence in the plants caused by the agent Tilletia tritici (stinking bunt, covered smut, hill bunt, complete bunt, low bunt, high bunt)." [CO:curators, NCBITaxon:157183]
 synonym: "TtritInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000101
 name: wheat dwarf bunt incidence trait
-def: "Dwarf bunt incidence in the plants caused by the agent tilletia controversa." [CO:curators]
+def: "Dwarf bunt incidence in the plants caused by the agent Tilletia controversa." [CO:curators, NCBITaxon:13291]
 synonym: "TcontInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000102
 name: wheat eyespot plant response trait
-def: "Eye spot response in the plants caused by the fungal species tapesia yallundae (pseudocercosporella herpotrichoide w-type) and tapesia acuformis (pseudocercosporella herpotrichoides r-type). symptoms: the eye shape elliptical lesions forms on lower base of stem and lower leaf sheath. the eyespots are straw yellow in color from the middle and are surrounded by the greenish brown to dark brown rings." [CO:curators]
+def: "Eye spot response in the plants caused by the fungal species Tapesia yallundae (Pseudocercosporella herpotrichoide w-type) and Tapesia acuformis (Pseudocercosporella herpotrichoides r-type). 
+comment: Symptoms: the eye shape elliptical lesions forms on lower base of stem and lower leaf sheath. The eyespots are straw yellow in color from the middle and are surrounded by greenish brown to dark brown rings." [CO:curators]
 synonym: "PherpResp" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000103
 name: wheat flag smut plant response trait
-def: "Flag smut disease response in the plants caused by the agent urocystis agropyri causing flag smut disease." [CO:curators]
+def: "Flag smut disease response in the plants caused by the agent Urocystis agropyri causing flag smut disease." [CO:curators, NCBITaxon:265355]
 synonym: "UagroResp" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000106
 name: wheat karnal bunt incidence trait
-def: "Karnal bunt incidence in the plants caused by the agent tilletia indica (syn. neovossia indica)." [CO:curators]
+def: "Karnal bunt incidence in the plants caused by the agent Tilletia indica (syn. neovossia indica)." [CO:curators, NCBITaxon:43049]
 synonym: "TindiInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000110
@@ -677,17 +678,17 @@ is_a: TO:0000384
 [Term]
 id: CO_321:0000115
 name: wheat southern blight plant response trait
-def: "Southern blight response in the plants caused by the agent corticum rolfsii (sclerotium rolfsii)." [CO:curators]
+def: "Southern blight response in the plants caused by the agent Corticum rolfsii (sclerotium rolfsii)." [CO:curators, NCBITaxon:39291]
 synonym: "SROLF" EXACT []
 synonym: "SrolfResp" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000119
 name: wheat take all incidence trait
-def: "Take-all incidence in the plants caused by the agent gaeumannomyces graminis var. tritici (ggt)." [CO:curators]
+def: "Take-all incidence in the plants caused by the agent Gaeumannomyces graminis var. tritici (Gaeumannomyces tritici; ggt)." [CO:curators]
 synonym: "GgtriInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000121
@@ -921,16 +922,16 @@ is_a: TO:0000068
 [Term]
 id: CO_321:0000168
 name: wheat fusarium wilt incidence trait
-def: "Fusarium wilt incidence in the plants caused by the agent fusarium oxysporum." [CO:curators]
+def: "Fusarium wilt incidence in the plants caused by the agent Fusarium oxysporum." [CO:curators, NCBITaxon:5507]
 synonym: "FoxiWilt" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000170
 name: wheat net blotch incidence trait
-def: "Net blotch incidence in the plants caused by the agent pyrenophora teres (helminthosporium teres)." [CO:curators]
+def: "Net blotch incidence in the plants caused by the agent Pyrenophora teres (helminthosporium teres)." [CO:curators, NCBITaxon:53485]
 synonym: "HtereInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000173
@@ -963,15 +964,15 @@ is_a: TO:0000259
 [Term]
 id: CO_321:0000177
 name: wheat stem rust plant response trait
-def: "Stem rust (black rust) response in the plants caused by the agent puccinia graminis f.sp. triticii." [CO:curators]
+def: "Stem rust (black rust) response in the plants caused by the agent Puccinia graminis f.sp. triticii." [CO:curators, NCBITaxon:56615]
 synonym: "PgramResp" EXACT []
 synonym: "Stem rust" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000178
 name: wheat leaf rust plant response trait
-def: "Leaf rust (brown rust) response in the plants caused by the agent puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators]
 synonym: "PrecoResp" EXACT []
 is_a: TO:0020057
 
@@ -2983,9 +2984,9 @@ is_a: TO:0000396
 [Term]
 id: CO_321:0000647
 name: wheat barley leaf rust severity trait
-def: "Barley leaf rust severity in the plants caused by the agent puccinia hordei." [CO:curators]
+def: "Barley leaf rust severity in the plants caused by the agent Puccinia hordei." [CO:curators, "	NCBITaxon:27345"]
 synonym: "PhordSev" EXACT []
-is_a: TO:0020057
+is_a: TO:0020056 ! barley leaf rust disease response
 
 [Term]
 id: CO_321:0000648
