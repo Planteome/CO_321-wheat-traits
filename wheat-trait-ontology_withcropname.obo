@@ -3173,9 +3173,9 @@ is_a: TO:0000112 ! disease resistance
 [Term]
 id: CO_321:0000683
 name: wheat sharp eyespot incidence trait
-def: "Sharp eyespot incidence in the plants caused by the agent rhizoctonia cerealis." [CO:curators]
+def: "Sharp eyespot incidence in the plants caused by the agent Rhizoctonia cerealis (Ceratobasidium cereale)." [CO:curators, NCBITaxon:76351]
 synonym: "RcereInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_321:0000684
