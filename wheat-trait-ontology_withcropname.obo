@@ -4241,7 +4241,7 @@ is_a: TO:0000770 ! bacterial blight disease resistance
 [Term]
 id: CO_321:0000933
 name: wheat barley Helminthosporium leaf stripe incidence trait
-def: "Barley Helminthosporium leaf stripe incidence in the plants caused by the agent Drechslera graminea (Helminthosporium gramineum) (Pyrenophora graminea)." [CO:curators, NCBITaxon: 5028]
+def: "Barley Helminthosporium leaf stripe incidence in the plants caused by the agent Drechslera graminea (Helminthosporium gramineum) (Pyrenophora graminea)." [CO:curators, NCBITaxon:5028]
 synonym: "HgramInc" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
