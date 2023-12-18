@@ -2985,7 +2985,7 @@ is_a: TO:0000396
 [Term]
 id: CO_321:0000647
 name: wheat barley leaf rust severity trait
-def: "Barley leaf rust severity in the plants caused by the agent Puccinia hordei." [CO:curators, NCBITaxon:27345"]
+def: "Barley leaf rust severity in the plants caused by the agent Puccinia hordei." [CO:curators, NCBITaxon:27345]
 synonym: "PhordSev" EXACT []
 is_a: TO:0020056 ! barley leaf rust disease response
 
