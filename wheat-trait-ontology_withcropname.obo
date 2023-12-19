@@ -2363,9 +2363,9 @@ relationship: method_of CO_321:0000014 ! crop ground cover
 [Term]
 id: CO_321:0000406
 name: wheat net blotch severity trait
-def: "Net blotch severity in the plants caused by the agent pyrenophora teres (helminthosporium teres)." [CO:curators]
+def: "Net blotch severity in the plants caused by the agent Prenophora teres (Helminthosporium teres)." [CO:curators, NCBITaxon:53485]
 synonym: "HtereSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000407
