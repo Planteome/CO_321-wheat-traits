@@ -3454,9 +3454,9 @@ relationship: method_of CO_321:0000684 ! spike disease development
 [Term]
 id: CO_321:0000723
 name: wheat spot blotch severity trait
-def: "Spot blotch severity in the plants caused by the agent cochliobolus sativus (helminthosporium sativum)." [CO:curators]
+def: "Spot blotch severity in the plants caused by the agent Cochliobolus sativus (Helminthosporium sativum)." [CO:curators, NCBITaxon:45130]
 synonym: "HsatiLSev" EXACT []
-is_a: TO:0020053
+is_a: TO:0020053 ! wheat spot blotch disease response
 
 [Term]
 id: CO_321:0000724
@@ -3976,7 +3976,7 @@ relationship: scale_of CO_321:0000822 ! gyfac computation
 [Term]
 id: CO_321:0000897
 name: wheat leaf rust coefficient of infection trait
-def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "Leaf rust CI" EXACT []
 synonym: "PrecoCI" EXACT []
 is_a: TO:0020057
@@ -3984,14 +3984,14 @@ is_a: TO:0020057
 [Term]
 id: CO_321:0000898
 name: wheat leaf rust incidence trait
-def: "Leaf rust (brown rust) incidence in the plants caused by the agent puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) incidence in the plants caused by the agent puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoInc" EXACT []
 is_a: TO:0020057
 
 [Term]
 id: CO_321:0000899
 name: wheat leaf rust legacy trait
-def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) incidence/severity/response in the plants caused by the agent puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoLegacy" EXACT []
 is_a: TO:0020057
 
@@ -4004,7 +4004,7 @@ relationship: method_of CO_321:0000899 ! leaf rust legacy
 [Term]
 id: CO_321:0000901
 name: wheat leaf rust seedling response trait
-def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoSdlgResp" EXACT []
 is_a: TO:0020057 ! wheat leaf rust disease response
 
@@ -4208,7 +4208,7 @@ is_a: TO:0000663 ! wheat fusarium head blight response
 [Term]
 id: CO_321:0000929
 name: wheat Fusarium head blight spike response trait
-def: "Fusarium head blight (scab) spike response caused by the agent Fusarium spp." [CO:curators,  NCBITaxon:5518]
+def: "Fusarium head blight (scab) spike response caused by the agent Fusarium spp." [CO:curators, NCBITaxon:5518]
 synonym: "FHBSpkResp" EXACT []
 is_a: TO:0000663 ! wheat fusarium head blight response
 
@@ -7983,7 +7983,7 @@ id: CO_321:0500002
 name: wheat barley yellow dwarf plant response trait
 def: "Plant response to barley yellow dwarf virus." [CO:curators]
 synonym: "BYDResp" EXACT []
-is_a: TO:0020067
+is_a: TO:0020067 ! barley yellow dwarf virus disease resistance
 
 [Term]
 id: CO_321:0500003
@@ -8098,23 +8098,23 @@ is_a: TO:0000696
 [Term]
 id: CO_321:0500019
 name: wheat fusarium head blight disease index trait
-def: "Fusarium head blight (scab) disease index. Index calculated as the disease incidence x severity/100, where incidence= % infected spikes in the sample (non-zero spikes/total spikes evaluated x 100), and severity= % of infected spikelets per spike." [CO:curators]
+def: "Fusarium head blight (scab) disease index. Index calculated as the disease incidence x severity/100, where incidence= % infected spikes in the sample (non-zero spikes/total spikes evaluated x 100), and severity= % of infected spikelets per spike." [CO:curators, NCBITaxon:5518]
 synonym: "FHBDI" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0500020
 name: wheat fusarium head blight diseased florets trait
-def: "Percentage of florets infected with Fusarium head blight (FHB) following point inoculation." [CO:curators]
+def: "Percentage of florets infected with Fusarium head blight (FHB) following point inoculation." [CO:curators, NCBITaxon:5518]
 synonym: "FHBFlorets" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0500021
 name: wheat fusarium head blight isk index trait
-def: "Fusarium head blight (scab) ISK Index." [CO:curators]
+def: "Fusarium head blight (scab) ISK Index." [CO:curators, NCBITaxon:5518]
 synonym: "FHBISK" EXACT []
-is_a: TO:0000663
+is_a: TO:0000663 ! wheat fusarium head blight response
 
 [Term]
 id: CO_321:0500022
@@ -8281,7 +8281,7 @@ is_a: TO:0000599 ! enzyme activity trait
 [Term]
 id: CO_321:0500045
 name: wheat powdery mildew plant response trait
-def: "Powdery mildew plant response caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators]
+def: "Powdery mildew plant response caused by the agent Blumeria graminis (Erysiphe graminis) f. sp. tritici." [CO:curators, NCBITaxon:34373]
 synonym: "EgramResp" EXACT []
 is_a: TO:0020061
 
