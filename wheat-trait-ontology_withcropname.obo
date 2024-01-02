@@ -501,9 +501,9 @@ is_a: TO:0000168
 [Term]
 id: CO_321:0000082
 name: wheat alternaria leaf blight plant response trait
-def: "Alternaria leaf blight response in the plants caused by the agent alternaria triticina." [CO:curators]
+def: "Alternaria leaf blight response in the plants caused by the agent alternaria triticina." [CO:curators, NCBITaxon:216836]
 synonym: "AtritResp" EXACT []
-is_a: 	TO:0000439 ! 	fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_321:0000084
@@ -686,7 +686,7 @@ is_a: TO:0001146 ! Basidiomycete fungal disease response
 [Term]
 id: CO_321:0000119
 name: wheat take all incidence trait
-def: "Take-all incidence in the plants caused by the agent Gaeumannomyces graminis var. tritici (Gaeumannomyces tritici; ggt)." [CO:curators]
+def: "Take-all incidence in the plants caused by the agent Gaeumannomyces graminis var. tritici (Gaeumannomyces tritici; ggt)." [CO:curators, NCBITaxon:36779]
 synonym: "GgtriInc" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -929,7 +929,7 @@ is_a: TO:0001145 ! Ascomycete fungal disease response
 [Term]
 id: CO_321:0000170
 name: wheat net blotch incidence trait
-def: "Net blotch incidence in the plants caused by the agent Pyrenophora teres (helminthosporium teres)." [CO:curators, NCBITaxon:53485]
+def: "Net blotch incidence in the plants caused by the agent Pyrenophora teres (Helminthosporium teres)." [CO:curators, NCBITaxon:53485]
 synonym: "HtereInc" EXACT []
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
@@ -972,14 +972,14 @@ is_a: TO:0001146 ! Basidiomycete fungal disease response
 [Term]
 id: CO_321:0000178
 name: wheat leaf rust plant response trait
-def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators]
+def: "Leaf rust (brown rust) response in the plants caused by the agent Puccinia recondita." [CO:curators, NCBITaxon:208348]
 synonym: "PrecoResp" EXACT []
 is_a: TO:0020057 ! wheat leaf rust disease response
 
 [Term]
 id: CO_321:0000179
 name: wheat stripe rust plant response trait
-def: "Stripe rust (yellow rust) response in the plants caused by the agent Puccinia striiformis f.sp. tritici." [CO:curators]
+def: "Stripe rust (yellow rust) response in the plants caused by the agent Puccinia striiformis f. sp. tritici." [CO:curators, NCBITaxon:168172]
 synonym: "PstriResp" EXACT []
 synonym: "Stripe rust" EXACT []
 is_a: TO:0020055 ! wheat stripe rust disease response
