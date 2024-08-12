@@ -895,7 +895,7 @@ name: wheat winter kill damage trait
 def: "Plants killed as a result of winter conditions." [CO:curators]
 synonym: "Winter susceptibility" EXACT []
 synonym: "WKill" EXACT []
-is_a: TO:0000303
+is_a: TO:0001153 ! survival rate after freezing temperature stress
 
 [Term]
 id: CO_321:0000165
