@@ -725,7 +725,7 @@ id: CO_321:0000127
 name: wheat frost damage trait
 def: "Plant damage caused by frost." [CO:curators]
 synonym: "FrostDmg" EXACT []
-is_a: TO:0000303
+is_a: TO:0001152 frost damage stress response
 
 [Term]
 id: CO_321:0000128
