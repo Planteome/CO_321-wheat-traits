@@ -3146,7 +3146,7 @@ id: CO_321:0000679
 name: wheat herbicide damage trait
 def: "Plant damage caused by herbicide." [CO:curators]
 synonym: "HerbicideDmg" EXACT []
-is_a: TO:0000168
+is_a: TO:0000058 ! herbicide response
 
 [Term]
 id: CO_321:0000680
