@@ -139,14 +139,14 @@ id: CO_321:0000028
 name: wheat leaf chlorophyll content trait
 def: "Chlorophyll content in leaf green tissue. includes both chlorophyll-a and chlorophyll-b. chlorophyll is the green pigment found in plants." [CO:curators]
 synonym: "Chl" EXACT []
-is_a: TO:0012002
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_321:0000029
 name: wheat coleoptile length trait
 def: "Length of coleoptile (a protective sheath that surrounds the shoot tip and the embryonic leaves of the young shoot of grasses)." [CO:curators]
 synonym: "ColeopLng" EXACT []
-is_a: TO:0001007
+is_a: TO:0001007 ! coleoptile length
 
 [Term]
 id: CO_321:0000031
@@ -437,7 +437,7 @@ id: CO_321:0000071
 name: wheat whole meal flour falling number trait
 def: "Indication of the amount of sprout damage that has occurred within a wheat sample. falling number value of 350 seconds or longer indicates a low enzyme activity and very sound wheat quality. as the amount of enzyme activity increases, the falling number decreases. values below 200 seconds indicate high levels of enzyme activity." [CO:curators]
 synonym: "WMFlrFN" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000072
@@ -445,28 +445,28 @@ name: wheat grain hardness trait
 def: "Grain hardness is used as a grading factor to determine the type of wheat. it is a key determinant for classification of wheat and end product quality." [CO:curators]
 synonym: "GHrd" EXACT []
 synonym: "Grain texture" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000073
 name: wheat grain protein content trait
 def: "Content of protein (corrected to 12.5% moisture basis) in the whole wheat grain samples." [CO:curators]
 synonym: "GProt" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000074
 name: wheat semolina protein content trait
 def: "Protein content in durum wheat semolina." [CO:curators]
 synonym: "SemoProt" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000075
 name: wheat semolina color trait
 def: "The semolina color." [CO:curators]
 synonym: "SemoCol" EXACT []
-is_a: TO:0000162
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_321:0000078
@@ -496,7 +496,7 @@ name: wheat sprouting tolerance trait
 def: "Tolerance of grain to sprout when in the spike." [CO:curators]
 synonym: "Pre-harvest sprouting tolerance" EXACT []
 synonym: "SproutTol" EXACT []
-is_a: TO:0000168
+is_a: TO:0000949 ! seedling growth and development trait
 
 [Term]
 id: CO_321:0000082
